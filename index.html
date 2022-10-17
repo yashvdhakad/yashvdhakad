@@ -6,10 +6,145 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yash Dhakad | A Crazy Polymath</title>
+    <link rel="stylesheet" href="input.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 </head>
 
-<body>
-    <h1>It's Yash Dhakad.</h1>
+<body class="font-[Manrope] text-zinc-100">
+    <header>
+        <nav class="bg-zinc-800 py-4 px-6">
+            <ul class="flex justify-between text-base font-bold">
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- HERO -->
+        <section
+            class="w-screen h-screen py-20 px-6 flex flex-col justify-start items-start space-y-4 bg-[url(/media/techBgDim.svg)] bg-cover bg-center bg-no-repeat">
+            <img class="rounded-full w-1/2" src="media/dp.png" alt="YD's profile picture">
+            <h1 class="text-4xl font-bold">Your Unfair Advantage.</h1>
+            <p class="text-base font-medium">I'm Yash. A crazy polymath who is keen to learn everything
+                which egnites the fire of curiosity in my mind.</p>
+            <button class="text-base font-bold bg-zinc-800 text-zinc-100 py-3 px-12 rounded-md">Let's Chat</button>
+        </section>
+
+        <!-- Technology -->
+        <section class="h-full py-20 bg-zinc-100 text-zinc-800 flex relative overflow-x-hidden">
+            <div class="animate-marquee whitespace-nowrap flex space-x-10">
+                <img class="w-20" src="media/html.svg" alt="">
+                <img class="w-20" src="media/css.svg" alt="">
+                <img class="w-40" src="media/js.svg" alt="">
+                <img class="w-20" src="media/tailwind.svg" alt="">
+                <img class="w-20" src="media/react.svg" alt="">
+                <img class="w-36" src="media/nodejs.svg" alt="">
+            </div>
+
+            <div class="absolute animate-marquee2 whitespace-nowrap flex space-x-10">
+                <img class="w-20" src="media/html.svg" alt="">
+                <img class="w-20" src="media/css.svg" alt="">
+                <img class="w-40" src="media/js.svg" alt="">
+                <img class="w-20" src="media/tailwind.svg" alt="">
+                <img class="w-20" src="media/react.svg" alt="">
+                <img class="w-36" src="media/nodejs.svg" alt="">
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section
+            class="w-screen h-full py-20 px-6 bg-zinc-800 text-zinc-100 flex flex-col justify-start items-stretch space-y-6">
+            <h2 class="text-3xl font-bold">Projects:</h2>
+
+            <div class="border rounded-lg p-6 flex flex-col justify-start items-start space-y-4">
+                <h3 class="text-2xl font-bold">1. CLI Quiz Game: Bachpan Ka Yaar</h3>
+                <p class="text-base font-medium">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
+                    reprehenderit!</p>
+                <div class="flex justify-start items-center space-x-2">
+                    <button
+                        class="text-base font-bold border border-zinc-100 bg-zinc-100 text-zinc-800 py-3 px-5 rounded-md">Live
+                        Demo</button>
+                    <button class="text-base font-bold border border-zinc-100 text-zinc-100 py-3 px-5 rounded-md">Source
+                        Code</button>
+                </div>
+            </div>
+            <div class="border border-zinc-100 rounded-lg p-6 flex flex-col justify-start items-start space-y-4">
+                <h3 class="text-2xl font-bold">2. Bachpan Ka Yaar - Advance</h3>
+                <p class="text-base font-medium">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
+                    reprehenderit!</p>
+                <div class="flex justify-start items-center space-x-2">
+                    <button
+                        class="text-base font-bold border border-zinc-100 bg-zinc-100 text-zinc-800 py-3 px-5 rounded-md">Live
+                        Demo</button>
+                    <button class="text-base font-bold border border-zinc-100 text-zinc-100 py-3 px-5 rounded-md">Source
+                        Code</button>
+                </div>
+            </div>
+            <button
+                class="text-base font-bold border border-zinc-100 bg-zinc-100 text-zinc-800 py-3 px-5 rounded-md">View
+                All Projects</button>
+        </section>
+
+        <!-- Blogs -->
+        <section
+            class="w-screen h-full py-20 px-6 bg-zinc-100 text-zinc-800 flex flex-col justify-start items-stretch space-y-6">
+            <h2 class="text-3xl font-bold">Blogs:</h2>
+
+            <div class="border border-zinc-800 rounded-lg p-6 flex flex-col justify-start items-start space-y-4">
+                <h3 class="text-2xl font-bold">Trending repos I explored!</h3>
+                <p class="text-sm font-medium">5 min. Read | October, 2022</p>
+                <p class="text-base font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci harum
+                    quam unde aperiam cupiditate?</p>
+                <div class="flex justify-start items-center space-x-2">
+                    <button
+                        class="text-base font-bold border border-zinc-800 bg-zinc-800 text-zinc-100 py-3 px-5 rounded-md">Read
+                        More</button>
+                </div>
+            </div>
+            <div class="border border-zinc-800 rounded-lg p-6 flex flex-col justify-start items-start space-y-4">
+                <h3 class="text-2xl font-bold">What is hacktoberfest and why you should care?</h3>
+                <p class="text-sm font-medium">5 min. Read | October, 2022</p>
+                <p class="text-base font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci harum
+                    quam unde aperiam cupiditate?</p>
+                <div class="flex justify-start items-center space-x-2">
+                    <button
+                        class="text-base font-bold border border-zinc-800 bg-zinc-800 text-zinc-100 py-3 px-5 rounded-md">Read
+                        More</button>
+                </div>
+            </div>
+            <button
+                class="text-base font-bold border border-zinc-800 bg-zinc-800 text-zinc-100 py-3 px-5 rounded-md">Read
+                All Blogs</button>
+        </section>
+
+        <!-- Contact -->
+        <section
+            class="CONTACT w-screen h-full py-20 px-6 flex flex-col justify-start items-start space-y-4 bg-[url(/media/techBgDim.svg)] bg-cover bg-center bg-no-repeat">
+            <h1 class="text-3xl font-bold">Connect with me on social media to get live updates about projects:</h1>
+            <p class="text-base font-medium">I'm Yash. A crazy polymath who is keen to learn everything
+                which egnites the fire of curiosity in my mind.</p>
+            <div class="w-full flex justify-between items-center">
+                <a href="" class="w-12 invert"><img src="./media/whatsapp.png" alt="whatsapp"></a>
+                <a href="https://www.facebook.com/yashvdhakad" class="w-12 invert"><img src="./media/fb.png"
+                        alt="Facebook"></a>
+                <a href="https://www.instagram.com/yashvdhakad" class="w-12 invert"><img src="./media/ig.png"
+                        alt="Instagram"></a>
+                <a href="https://linkedin.com/in/yashvdhakad" class="w-12 invert"><img src="./media/linkedin.png"
+                        alt="LinkedIn"></a>
+                <a href="https://twitter.com/yashvdhakad" class="w-12 invert"><img src="./media/twitter.png"
+                        alt="Twitter"></a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="text-sm font-bold bg-zinc-100 text-zinc-800 py-4 px-6 text-center">
+            &copy; Yash Dhakad ∞
+        </div>
+    </footer>
 </body>
 
 </html>
