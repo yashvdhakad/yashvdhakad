@@ -178,7 +178,7 @@ table {
 3. Remove default padding in all browsers.
 */
 
-a href="",
+button,
 input,
 optgroup,
 select,
@@ -203,21 +203,21 @@ textarea {
 Remove the inheritance of text transform in Edge and Firefox.
 */
 
-a href="",
+button,
 select {
   text-transform: none;
 }
 
 /*
 1. Correct the inability to style clickable types in iOS and Safari.
-2. Remove default a href="" styles.
+2. Remove default button styles.
 */
 
-a href="",
-[type='a href=""'],
+button,
+[type='button'],
 [type='reset'],
 [type='submit'] {
-  -webkit-appearance: a href="";
+  -webkit-appearance: button;
   /* 1 */
   background-color: transparent;
   /* 2 */
@@ -250,11 +250,11 @@ progress {
 }
 
 /*
-Correct the cursor style of increment and decrement a href=""s in Safari.
+Correct the cursor style of increment and decrement buttons in Safari.
 */
 
-::-webkit-inner-spin-a href="",
-::-webkit-outer-spin-a href="" {
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -283,8 +283,8 @@ Remove the inner padding in Chrome and Safari on macOS.
 2. Change font properties to `inherit` in Safari.
 */
 
-::-webkit-file-upload-a href="" {
-  -webkit-appearance: a href="";
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
   /* 1 */
   font: inherit;
   /* 2 */
@@ -364,16 +364,16 @@ textarea::placeholder {
 }
 
 /*
-Set the default cursor for a href=""s.
+Set the default cursor for buttons.
 */
 
-a href="",
-[role="a href="""] {
+button,
+[role="button"] {
   cursor: pointer;
 }
 
 /*
-Make sure disabled a href=""s don't get the pointer cursor.
+Make sure disabled buttons don't get the pointer cursor.
 */
 
 :disabled {
@@ -569,10 +569,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.w-full {
-  width: 100vw;
 }
 
 .w-full {
@@ -862,4 +858,10 @@ video {
 .invert {
   --tw-invert: invert(100%);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+@media (min-width: 1024px) {
+  .lg\:w-1\/6 {
+    width: 16.666667%;
+  }
 }
