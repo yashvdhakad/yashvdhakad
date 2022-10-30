@@ -846,7 +846,7 @@ video {
 }
 
 .bg-\[url\(\/media\/techBgDim\.svg\)\] {
-  background-image: url(/media/techBgDim.svg);
+  background-image: url(/media/techBgDim.webp);
 }
 
 .bg-gradient-to-r {
