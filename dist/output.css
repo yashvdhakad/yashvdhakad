@@ -800,8 +800,8 @@ video {
   background-color: rgb(250 204 21 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\/media\/techBgDim\.webp\)\] {
-  background-image: url(/media/techBgDim.webp);
+.bg-\[url\(\/media\/bg\.webp\)\] {
+  background-image: url(/media/bg.webp);
 }
 
 .bg-cover {
