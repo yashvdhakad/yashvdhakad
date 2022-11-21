@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import React from 'react'
+import Nav from './aside/Nav'
+import Contact from './aside/Contact'
 
 export const Aside = () => {
     const name = "Yash Dhakad"
@@ -49,28 +51,8 @@ export const Aside = () => {
                     </div> */}
                 </div>
 
-                {/* Nav */}
-                <nav className="w-full flex flex-col items-start text-center space-y-4 font-medium bg-white/10 p-6 rounded-lg">
-                    {
-                        navArray1.map((i) => {
-                            return <a className='w-full p-2 border border-[#dfbd63]/30 rounded-md hover:bg-[#b41e40] hover:text-[#dfbd63] zssss hover:font-semibold' href={i.url}>{i.name}</a>
-                        })
-                    }
-                </nav>
-
-                {/* Contact */}
-                <div className="flex flex-col items-start text-center space-y-4 bg-white/10 p-6 rounded-lg">
-                    <h2 className='font-medium'>Connect with me on social media to get live updates about projects:</h2>
-                    <div className="w-full flex justify-evenly">
-                        {
-                            socialMediaArray.map((i) => {
-                                return <a className='invert-[.6] hover:invert-[.9] transition-all hover:duration-300' href={i.url}>
-                                    <img width={i.width} src={i.source} alt="" />
-                                </a>
-                            })
-                        }
-                    </div>
-                </div>
+                <Nav />
+                <Contact />
 
                 {/* Other Companies */}
                 <nav className="w-full flex flex-col items-center space-y-4 text-sm font-medium">
@@ -80,7 +62,8 @@ export const Aside = () => {
                         })
                     }
                 </nav>
-
+                
+                {/* Footer  */}
                 <p className="w-full text-sm font-medium text-center">© {name} 2022 - ꝏ</p>
             </aside>
         </>

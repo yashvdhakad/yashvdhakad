@@ -6,8 +6,9 @@ import { Main } from "./components/Main";
 function App() {
   return (
     <div className="App text-[#dfbd63] pr-20">
-      {/* <Aside/> */}
-      <Main/>
+      <Aside />
+      <Main />
+      <h1>Hey!</h1>
     </div>
   )
 }
