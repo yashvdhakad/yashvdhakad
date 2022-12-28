@@ -8,7 +8,7 @@ const Nav = (props) => {
             <div className='p-2 rounded-lg bg-zinc-700 flex space-x-2'>
                 {
                     props.navArr.map((tab) => {
-                        return <div key={tab} className={tab.name === currentTab ? "border border-[#333239] bg-[#333239] text-white rounded-lg p-4 transition-all hover:scale-105 cursor-pointer hover:bg-[#1c1b22] hover:border-[#1c1b22]" : "border border-white/10 text-white/30 rounded-lg p-4 transition-all hover:scale-105 cursor-pointer hover:bg-[#1c1b22] hover:border-[#1c1b22] hover:text-white"}>{tab.name}</div>
+                        return <div key={tab} className={tab.name === currentTab ? "border border-[#333239] bg-[#333239] text-white rounded-lg p-4 transition-all hover:scale-105 cursor-pointer hover:bg-[#1c1b22] hover:border-[#1c1b22]" : "border border-white/10 text-white/30 rounded-lg p-4 transition-all hover:scale-105 cursor-pointer hover:bg-[#1c1b22] hover:border-[#1c1b22] hover:text-white hover:shadow-lg"}>{tab.name}</div>
                     })
                 }
             </div>
