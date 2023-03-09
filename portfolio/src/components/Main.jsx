@@ -6,8 +6,8 @@ import Heading from "./main/Heading";
 
 const Main = () => {
   const heading = {
-    h1: "Built from scratch",
-    p: "Here are the projects made using core tech stack: MERN Stack."
+    h1: "Hey, I'm Yash Dhakad.",
+    p: "And here are my projects built on core tech stack: MERN."
   }
 
   // const projectsArr = [
@@ -28,11 +28,11 @@ const Main = () => {
   const projectsArr = [
     { name: "CLI Quiz Game: Bachpan Ka Yaar", tech:"HTML, CSS, JS", source: "./src/assets/project1.png", url: "/", time:"Oct 2022" },
     { name: "CLI Quiz Game: Bachpan Ka Yaar - Advance", tech:"HTML, CSS, JS", source: "./src/assets/project1.png", url: "/", time:"Oct 2022" },
-    { name: "CLI Quiz Game: Bachpan Ka Yaar", tech:"HTML, CSS, JS", source: "./src/assets/project1.png", url: "/", time:"Oct 2022" },
+    { name: "Banana Talk - Minion Language Tanslator App", tech:"HTML, CSS, JS", source: "./src/assets/project1.png", url: "/", time:"Oct 2022" },
   ]
 
   const navArr = [
-    { name: "</>" },
+    // { name: "</>" },
     { name: "Home" },
     { name: "Design" },
     { name: "Development" },
