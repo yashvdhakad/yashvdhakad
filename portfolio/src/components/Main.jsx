@@ -7,7 +7,7 @@ import Heading from "./main/Heading";
 const Main = () => {
   const heading = {
     h1: "Hey, I'm Yash Dhakad.",
-    p: "And here are my projects built on core tech stack: MERN."
+    // p: "And here are my projects built on core tech stack: MERN."
   }
 
   // const projectsArr = [
