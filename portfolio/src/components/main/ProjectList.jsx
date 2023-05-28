@@ -6,7 +6,7 @@ const ProjectList = (props) => {
             <div className='w-1/2 flex flex-col space-y-4'>
                 {
                     props.projectsArr.map((project) => {
-                        return <div className='text-zinc-800 font-semibold bg-yellow-600/60 rounded p-4 hover:shadow-lg transition-all hover:scale-105 hover:bg-yellow-600 flex justify-between items-center cursor-default border border-zinc-800'>
+                        return <div className='text-zinc-300 font-semibold bg-red-900/30 rounded p-4 hover:shadow-lg transition-all hover:scale-105 hover:bg-zinc-800 flex justify-between items-center cursor-default border border-zinc-700'>
                             <div className='w-1/2'>
                                 <div className='font-bold'>
                                     {project.name}
@@ -16,8 +16,8 @@ const ProjectList = (props) => {
                                 </div>
                             </div>
                             <div className='space-x-4'>
-                                <a className='border border-zinc-800 py-2 px-4 text-sm font-semibold bg-red-600 text-zinc-800 rounded cursor-pointer' href={project.demo}>Live Project</a>
-                                <a className='border border-zinc-800 py-2 px-4 text-sm font-semibold rounded cursor-pointer' href={project.source}>Source Code</a>
+                                <a className='border border-zinc-700 py-2 px-4 text-sm font-semibold bg-red-900/30 text-zinc-300 rounded cursor-pointer hover:border-zinc-300' href={project.demo}>Live Project</a>
+                                <a className='border border-zinc-700 py-2 px-4 text-sm font-semibold rounded cursor-pointer hover:border-zinc-300' href={project.source}>Source Code</a>
                             </div>
                         </div>;
                     }).reverse()
