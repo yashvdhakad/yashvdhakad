@@ -7,7 +7,7 @@ import Heading from "./main/Heading";
 const Main = () => {
   const heading = {
     h1: "Hey, I'm Yash Dhakad.",
-    p: "A Full-Stack Developer with in depth knowledge of Design & Marketing based in Agra, India."
+    p: "A Full-Stack Developer with in depth knowledge of Design & Marketing based in Agra, India. You will build a small tic-tac-toe game during this tutorial. This tutorial does not assume any existing React knowledge."
   }
 
   // const projectsArr = [
@@ -35,6 +35,20 @@ const Main = () => {
     },
     {
       name: "2. CLI Quiz Game: Bachpan Ka Yaar - Advance",
+      tech: "HTML, CSS, JS-MERN",
+      source: "./src/assets/project1.png",
+      url: "/",
+      time: "Oct 2022"
+    },
+    {
+      name: "Jobs Mantra Group's Website",
+      tech: "HTML, CSS, JS-MERN",
+      source: "./src/assets/project1.png",
+      url: "/",
+      time: "Oct 2022"
+    },
+    {
+      name: "Jobs Mantra Group's Website",
       tech: "HTML, CSS, JS-MERN",
       source: "./src/assets/project1.png",
       url: "/",
