@@ -27,14 +27,14 @@ const Main = () => {
 
   const projectsArr = [
     {
-      name: "Jobs Mantra Group's Website",
+      name: "1. CLI Quiz Game: Bachpan Ka Yaar",
       tech: "HTML, CSS, JS-MERN",
       source: "./src/assets/project1.png",
       url: "/",
       time: "Oct 2022"
     },
     {
-      name: "Jobs Mantra Group's Website",
+      name: "2. CLI Quiz Game: Bachpan Ka Yaar - Advance",
       tech: "HTML, CSS, JS-MERN",
       source: "./src/assets/project1.png",
       url: "/",
