@@ -6,7 +6,7 @@ import Heading from "./main/Heading";
 
 const Main = () => {
   const heading = {
-    h1: "Hey, I'm Yash Dhakad.",
+    h1: "Yash Dhakad.",
     p: "A Full-Stack Developer with in depth knowledge of Design & Marketing based in Agra, India. You will build a small tic-tac-toe game during this tutorial. This tutorial does not assume any existing React knowledge."
   }
 
@@ -68,34 +68,6 @@ const Main = () => {
       url: "/",
       time: "Oct 2022"
     },
-    {
-      name: "Jobs Mantra Group's Website",
-      tech: "HTML, CSS, JS-MERN",
-      source: "./src/assets/project1.png",
-      url: "/",
-      time: "Oct 2022"
-    },
-    {
-      name: "Jobs Mantra Group's Website",
-      tech: "HTML, CSS, JS-MERN",
-      source: "./src/assets/project1.png",
-      url: "/",
-      time: "Oct 2022"
-    },
-    {
-      name: "Jobs Mantra Group's Website",
-      tech: "HTML, CSS, JS-MERN",
-      source: "./src/assets/project1.png",
-      url: "/",
-      time: "Oct 2022"
-    },
-    {
-      name: "Jobs Mantra Group's Website",
-      tech: "HTML, CSS, JS-MERN",
-      source: "./src/assets/project1.png",
-      url: "/",
-      time: "Oct 2022"
-    },
   ]
 
   const navArr = [
@@ -110,7 +82,7 @@ const Main = () => {
 
   return (
     <>
-      <div className="bg-[url('./assets/bg1.jpg')] bg-cover bg-top bg-fixed">
+      <div className="bg-[#060522]">
         <main className='max-w-screen-xl mx-auto py-10 flex flex-col items-center space-y-10'>
           <Heading heading={heading} />
           <ProjectList projectsArr={projectsArr} />
