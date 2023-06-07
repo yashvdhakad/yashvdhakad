@@ -2,7 +2,7 @@ import React from 'react'
 
 const IntroCard = (props) => {
     return (
-        <div className="p-6 flex flex-col justify-between items-center text-center space-y-4 border border-sky-600 rounded-lg">
+        <div className="p-6 flex flex-col justify-between items-center text-center space-y-4 hover:shadow-xl hover:shadow-purple-800 transition rounded-lg cursor-default">
             <img className="w-16 rounded-full" src="./src/assets/dp.png" alt={props.name} />
             <h1 className='text-xl font-bold'>{props.name} <span className='text-xs font-semibold text-sky-300'>| 22 | 🇮🇳</span>
             </h1>

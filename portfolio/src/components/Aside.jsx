@@ -12,7 +12,6 @@ const Aside = () => {
 
     const navArr = [
         { name: "About", url: "#" },
-        { name: "All Brands Built", url: "#" },
         { name: "UI/UX Design", url: "#" },
         { name: "Copywriting", url: "#" },
         { name: "Software Development", url: "#" },
@@ -32,15 +31,13 @@ const Aside = () => {
         { name: "instagram", source: "./src/assets/instagram.png", url: "#", width: 24 }
     ]
 
-    // const [count, setCount] = useState(0);
-
     return (
-        <aside className='xl:w-1/4 h-full p-6 fixed flex flex-col justify-between items-start space-y-10 text-sky-300 bg-[#060522] overflow-scroll'>
+        <aside className='xl:w-1/4 h-full p-6 fixed flex flex-col justify-between items-start space-y-10 text-purple-300 bg-[#060522] overflow-scroll'>
             <IntroCard name={name} bio={bio} />
             <Nav navArr={navArr} />
             <Contact socialMediaArray={socialMediaArray} />
             <OtherComp companiesArr={companiesArr} />
-            <Footer name={name} />
+            <Footer />
         </aside>
     )
 }

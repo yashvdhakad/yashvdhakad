@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Footer = (props) => {
+const Footer = () => {
   return (
-    <p className="w-full text-sm font-medium text-center">© {props.name} 2022 - ꝏ</p>
+    <p className="w-full text-sm font-medium text-center">© YD 2023 - ꝏ</p>
   )
 }
 
