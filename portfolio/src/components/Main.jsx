@@ -3,6 +3,7 @@ import Nav from "./main/Nav";
 import Projects from "./main/Projects";
 import ProjectList from "./main/ProjectList";
 import Heading from "./main/Heading";
+import Aside from './Aside';
 
 const Main = () => {
   const heading = {
@@ -82,14 +83,13 @@ const Main = () => {
 
   return (
     <>
-      <div className="bg-[#060522]">
+        <Aside />
         <main className='max-w-screen-xl mx-auto py-10 flex flex-col items-center space-y-10'>
-          <Heading heading={heading} />
-          <ProjectList projectsArr={projectsArr} />
+          {/* <Heading heading={heading} /> */}
+          {/* <ProjectList projectsArr={projectsArr} /> */}
           {/* <Projects projectsArr={projectsArr} /> */}
           {/* <Nav navArr={navArr} /> */}
         </main>
-      </div>
     </>
   )
 }
