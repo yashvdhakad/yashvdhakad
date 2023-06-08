@@ -32,49 +32,18 @@ const Main = () => {
       url: "/",
       time: "Oct 2022"
     },
-    {
-      name: "Jobs Mantra Group's Website",
-      tech: "HTML, CSS, JS-MERN",
-      source: "./src/assets/project1.png",
-      url: "/",
-      time: "Oct 2022"
-    },
-    {
-      name: "Jobs Mantra Group's Website",
-      tech: "HTML, CSS, JS-MERN",
-      source: "./src/assets/project1.png",
-      url: "/",
-      time: "Oct 2022"
-    },
-    {
-      name: "Jobs Mantra Group's Website",
-      tech: "HTML, CSS, JS-MERN",
-      source: "./src/assets/project1.png",
-      url: "/",
-      time: "Oct 2022"
-    },
-    {
-      name: "Jobs Mantra Group's Website",
-      tech: "HTML, CSS, JS-MERN",
-      source: "./src/assets/project1.png",
-      url: "/",
-      time: "Oct 2022"
-    },
   ]
 
   const navArr = [
     { name: "Home", url: "/" },
     { name: "About", url: "/about" },
     { name: "Projects", url: "/projects" },
-    // { name: "Development Projects", url: "#" },
-    // { name: "UI/UX Projects", url: "#" },
-    // { name: "Copywriting Projects", url: "#" },
     { name: "Blog", url: "/blogs" },
-    { name: "Contact", url: "/contacts" }
+    { name: "Contact", url: "/contact" }
 ]
 
   return (
-    <main className='max-w-screen-xl mx-auto py-20 flex flex-col items-center space-y-10'>
+    <main className='max-w-screen-xl h-screen mx-auto py-20 flex flex-col items-center space-y-10'>
       <Router>
         <Routes>
           <Route exact path="/" element={<Hero key="home" intro={intro} />} />
