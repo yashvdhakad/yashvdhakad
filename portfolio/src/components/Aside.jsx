@@ -12,10 +12,10 @@ const Aside = () => {
 
     const navArr = [
         { name: "About", url: "#" },
-        { name: "UI/UX Design", url: "#" },
-        { name: "Copywriting", url: "#" },
-        { name: "Software Development", url: "#" },
-        { name: "All Blogs", url: "#" },
+        { name: "Development Projects", url: "#" },
+        { name: "UI/UX Projects", url: "#" },
+        { name: "Copywriting Projects", url: "#" },
+        { name: "Blog", url: "#" },
         { name: "Contact", url: "#" }
     ]
 

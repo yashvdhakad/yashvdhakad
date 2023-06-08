@@ -2,11 +2,11 @@ import React from 'react'
 
 const IntroCard = (props) => {
     return (
-        <div className="p-6 flex flex-col justify-between items-center text-center space-y-4 hover:shadow-xl hover:shadow-purple-800 transition rounded-lg cursor-default">
+        <div className="p-6 flex flex-col justify-between items-center text-center space-y-4 hover:shadow-xl hover:shadow-purple-900 transition rounded-lg cursor-default">
             <img className="w-16 rounded-full" src="./src/assets/dp.png" alt={props.name} />
-            <h1 className='text-xl font-bold'>{props.name} <span className='text-xs font-semibold text-sky-300'>| 22 | 🇮🇳</span>
+            <h1 className='text-xl font-bold'>{props.name} <span className='text-xs font-semibold text-purple-300'>| 22 | 🇮🇳</span>
             </h1>
-            <p className='text-sm font-semibold text-[#dfbd63]/80'>{props.bio}</p>
+            <p className='text-sm font-semibold text-purple-300/60'>{props.bio}</p>
             {/* <div className="w-full flex justify-evenly">
                         {
                             socialMediaArray.map((i) => {

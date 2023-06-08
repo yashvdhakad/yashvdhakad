@@ -2,8 +2,7 @@ import React from 'react'
 import Nav from "./main/Nav";
 import Projects from "./main/Projects";
 import ProjectList from "./main/ProjectList";
-import Heading from "./main/Heading";
-import Aside from './Aside';
+import Hero from "./main/Hero";
 
 const Main = () => {
   const heading = {
@@ -82,15 +81,12 @@ const Main = () => {
   ]
 
   return (
-    <>
-        <Aside />
-        <main className='max-w-screen-xl mx-auto py-10 flex flex-col items-center space-y-10'>
-          {/* <Heading heading={heading} /> */}
-          {/* <ProjectList projectsArr={projectsArr} /> */}
-          {/* <Projects projectsArr={projectsArr} /> */}
-          {/* <Nav navArr={navArr} /> */}
-        </main>
-    </>
+    <main className='max-w-screen-xl mx-auto py-10 flex flex-col items-end space-y-10 '>
+      <Hero heading={heading} />
+      {/* <ProjectList projectsArr={projectsArr} /> */}
+      {/* <Projects projectsArr={projectsArr} /> */}
+      {/* <Nav navArr={navArr} /> */}
+    </main>
   )
 }
 
