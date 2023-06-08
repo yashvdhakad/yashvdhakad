@@ -10,10 +10,11 @@ import ProjectList from "./main/ProjectList";
 import About from "./main/About";
 import Blog from "./main/Blog";
 import Contact from "./main/Contact";
+import TechStack from './main/TechStack';
 
 const Main = () => {
   const intro = {
-    h1: "Yash Dhakad.",
+    h1: "I'm Yash Dhakad.",
     p: "Full-Stack Developer with in depth experience in UI Design & Marketing based in Agra, India."
   }
 
@@ -21,23 +22,17 @@ const Main = () => {
     {
       name: "1. CLI Quiz Game: Bachpan Ka Yaar",
       tech: "HTML, CSS, JS-MERN",
-      source: "./src/assets/project1.png",
+      source: "../../assets/project1.png",
       url: "/",
-      time: "Oct 2022"
-    },
-    {
-      name: "2. CLI Quiz Game: Bachpan Ka Yaar - Advance",
-      tech: "HTML, CSS, JS-MERN",
-      source: "./src/assets/project1.png",
-      url: "/",
-      time: "Oct 2022"
+      time: "Oct 2022",
     },
   ]
 
   const navArr = [
-    { name: "Home", url: "/" },
+    { name: "</>", url: "/" },
+    { name: "Tech Stack", url: "/techstack" },
+    { name: "All Projects", url: "/projects" },
     { name: "About", url: "/about" },
-    { name: "Projects", url: "/projects" },
     { name: "Blog", url: "/blogs" },
     { name: "Contact", url: "/contact" }
 ]
@@ -47,6 +42,7 @@ const Main = () => {
       <Router>
         <Routes>
           <Route exact path="/" element={<Hero key="home" intro={intro} />} />
+          <Route exact path="/techstack" element={<TechStack key="techstack" />} />
           <Route exact path="/about" element={<About key="about" />} />
           <Route exact path="/projects" element={<ProjectList projectsArr={projectsArr} />} />
           <Route exact path="/blogs" element={<Blog key="blog" />} />
