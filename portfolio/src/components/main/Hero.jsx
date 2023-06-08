@@ -16,7 +16,7 @@ const Hero = (props) => {
             <div className='space-y-10'>
                 <img className='absolute left-0 top-0 transition hover:rotate-45 hover:scale-105' width="350" src={BG} alt=""/>
                 <h1 className="lg:text-9xl font-bold text-zinc-700 leading-3 z-10">{props.intro.h1}</h1>
-                <p className="font-black text-zinc-600 z-10">{props.intro.p}</p>
+                <p className="font-bold text-zinc-600 z-10">{props.intro.p}</p>
                 <div className="flex flex-wrap justify-between items-center space-x-10 transition-all">
                     <img className='grayscale hover:grayscale-0' src={HTMLLogo} width="80" alt="" />
                     <img className='grayscale hover:grayscale-0' src={CSSLogo} width="80" alt="" />
