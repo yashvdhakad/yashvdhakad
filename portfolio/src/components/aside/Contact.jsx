@@ -7,7 +7,7 @@ const Contact = (props) => {
             <div className="w-full flex justify-evenly">
                 {
                     props.socialMediaArray.map((i) => {
-                        return <a className='invert-[.6] hover:invert-[.9] transition-all hover:duration-300' href={i.url}>
+                        return <a key={i.name} className='invert-[.6] hover:invert-[.9] transition-all hover:duration-300' href={i.url}>
                             <img width={i.width} src={i.source} alt="" />
                         </a>
                     })

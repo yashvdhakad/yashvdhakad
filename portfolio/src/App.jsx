@@ -6,7 +6,7 @@ import Aside from './components/Aside';
 function App() {
 
   return (
-    <div className='bg-[#c8c8c8]'>
+    <div className='relative bg-[#c8c8c8]'>
         {/* <Aside /> */}
         <Main />
     </div>

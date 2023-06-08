@@ -1,29 +1,21 @@
 import React from 'react'
-import Nav from "./main/Nav";
-import Projects from "./main/Projects";
-import ProjectList from "./main/ProjectList";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+} from "react-router-dom";
 import Hero from "./main/Hero";
+import Nav from "./main/Nav";
+import ProjectList from "./main/ProjectList";
+import About from "./main/About";
+import Blog from "./main/Blog";
+import Contact from "./main/Contact";
 
 const Main = () => {
-  const heading = {
+  const intro = {
     h1: "Yash Dhakad.",
-    p: "A Full-Stack Developer with in depth knowledge of Design & Marketing based in Agra, India. You will build a small tic-tac-toe game during this tutorial. This tutorial does not assume any existing React knowledge."
+    p: "Full-Stack Developer with in depth experience in UI Design & Marketing based in Agra, India."
   }
-
-  // const projectsArr = [
-  //   { name: "Project 1", source: "./src/assets/project1.png", url: "/" },
-  //   { name: "Project 2", source: "./src/assets/project2.png", url: "/" },
-  //   { name: "Project 3", source: "./src/assets/project3.png", url: "/" },
-  //   { name: "Project 4", source: "./src/assets/project4.png", url: "/" },
-  //   { name: "Project 5", source: "./src/assets/project5.png", url: "/" },
-  //   { name: "Project 6", source: "./src/assets/project6.png", url: "/" },
-  //   { name: "Project 7", source: "./src/assets/project7.png", url: "/" },
-  //   { name: "Project 8", source: "./src/assets/project8.png", url: "/" },
-  //   { name: "Project 9", source: "./src/assets/project9.png", url: "/" },
-  //   { name: "Project 10", source: "./src/assets/project10.png", url: "/" },
-  //   { name: "Project 11", source: "./src/assets/project11.png", url: "/" },
-  //   { name: "Project 1", source: "./src/assets/project1.png", url: "/" },
-  // ]
 
   const projectsArr = [
     {
@@ -71,21 +63,28 @@ const Main = () => {
   ]
 
   const navArr = [
-    // { name: "</>" },
-    { name: "Home" },
-    { name: "Design" },
-    { name: "Development" },
-    { name: "Marketing" },
-    { name: "Blogs" },
-    { name: "Contact" },
-  ]
+    { name: "Home", url: "/" },
+    { name: "About", url: "/about" },
+    { name: "Projects", url: "/projects" },
+    // { name: "Development Projects", url: "#" },
+    // { name: "UI/UX Projects", url: "#" },
+    // { name: "Copywriting Projects", url: "#" },
+    { name: "Blog", url: "/blogs" },
+    { name: "Contact", url: "/contacts" }
+]
 
   return (
-    <main className='max-w-screen-xl mx-auto py-10 flex flex-col items-end space-y-10 '>
-      <Hero heading={heading} />
-      {/* <ProjectList projectsArr={projectsArr} /> */}
-      {/* <Projects projectsArr={projectsArr} /> */}
-      {/* <Nav navArr={navArr} /> */}
+    <main className='max-w-screen-xl mx-auto py-20 flex flex-col items-center space-y-10'>
+      <Router>
+        <Routes>
+          <Route exact path="/" element={<Hero key="home" intro={intro} />} />
+          <Route exact path="/about" element={<About key="about" />} />
+          <Route exact path="/projects" element={<ProjectList projectsArr={projectsArr} />} />
+          <Route exact path="/blogs" element={<Blog key="blog" />} />
+          <Route exact path="/contact" element={<Contact key="contact" />} />
+        </Routes>
+        <Nav navArr={navArr} />
+      </Router>
     </main>
   )
 }
