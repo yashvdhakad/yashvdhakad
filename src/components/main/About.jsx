@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <article className='text-lg text-zinc-700 font-semibold space-y-4'>
+    <article className='h-screen text-lg text-zinc-700 font-semibold space-y-4'>
       <span className="block" >
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat error dignissimos repellendus maxime numquam tempore quidem illum cum optio aspernatur, dolore odio omnis ipsam corporis consequatur tempora possimus voluptas eligendi commodi qui, deleniti adipisci reprehenderit quae eveniet. Itaque asperiores eveniet, ex enim explicabo voluptate, incidunt rem soluta libero molestias, iusto excepturi nesciunt sint animi odit porro repellendus tenetur quisquam aspernatur molestiae earum ab voluptatem.
       </span>
