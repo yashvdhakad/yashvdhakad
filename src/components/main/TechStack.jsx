@@ -10,8 +10,7 @@ import ExpressJsLogo from '../../assets/expressjs.svg'
 
 const TechStack = () => {
     return (
-        <>
-            <section className="flex flex-wrap justify-between items-center space-x-10 transition-all">
+            <section className="h-screen flex flex-wrap justify-between items-center space-x-10 transition-all">
                 <img className='grayscale hover:grayscale-0' src={HTMLLogo} width="80" alt="" />
                 <img className='grayscale hover:grayscale-0' src={CSSLogo} width="80" alt="" />
                 <img className='grayscale hover:grayscale-0' src={TailwindCSSLogo} width="100" alt="" />
@@ -21,7 +20,6 @@ const TechStack = () => {
                 <img className='saturate-0 contrast-2 hover:saturate-100 hover:contrast-100' src={MongoDBLogo} width="200" alt="" />
                 <img className='saturate-0 contrast-2 hover:saturate-100 hover:contrast-100' src={ExpressJsLogo} width="150" alt="" />
             </section>
-        </>
     )
 }
 
