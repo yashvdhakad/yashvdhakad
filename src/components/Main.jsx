@@ -38,7 +38,7 @@ const Main = () => {
 ]
 
   return (
-    <main className='max-w-screen-xl mx-auto px-20 flex flex-col items-center space-y-10'>
+    <main className='max-w-screen-xl h-screen mx-auto lg:px-20 flex flex-col items-center space-y-10'>
       <Router>
         <Routes>
           <Route exact path="/" element={<Hero key="home" intro={intro} />} />

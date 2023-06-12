@@ -5,15 +5,15 @@ import { Link } from 'react-router-dom'
 
 const Hero = (props) => {
     return (
-        <section className="h-screen relative flex justify-between items-center lg:space-x-40">
-            <div className='space-y-12'>
-                <img className='absolute left-0 top-20 rotate-center' width="350" src={BG} alt="" />
-                <h1 className="lg:text-9xl font-bold font-['Allura'] text-zinc-700">{props.intro.h1}</h1>
-                <p className="text-3xl font-bold font-['Allura'] text-zinc-700">
+        <section className="lg:h-screen py-40 px-6 relative flex lg:flex-row flex-col-reverse justify-between items-center lg:space-x-40 bg-[#c8c8c8]">
+            <div className='flex flex-col justify-center items-center space-y-12 text-center'>
+                <img className='lg:absolute lg:left-0 lg:top-20 rotate-center z-10' width="350" src={BG} alt="" />
+                <h1 className="lg:text-9xl text-8xl font-bold font-['Allura'] text-zinc-700 z-20">{props.intro.h1}</h1>
+                <p className="text-3xl font-bold font-['Allura'] text-zinc-700 z-20">
                     <Link to='/about' className='underline'>Full-Stack Developer </Link>{props.intro.p}
                 </p>
             </div>
-            <img className='border rounded-lg shadow shadow-zinc-400' src={DP} alt="YD" />
+            <img className='lg:static absolute top-[200px] w-60 lg:w-full border rounded-full shadow shadow-zinc-400 z-20 lg:rounded-lg' src={DP} alt="YD" />
         </section>
     )
 }

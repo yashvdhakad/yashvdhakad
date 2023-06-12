@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Nav = (props) => {
     return (
-        <div className='fixed bottom-10 w-fit rounded-xl p-2 flex space-x-2 bg-[#333239] shadow-xl shadow-zinc-800/40'>
+        <div className='fixed bottom-10 w-fit rounded-xl p-2 flex space-x-2 bg-[#333239] shadow-xl shadow-zinc-800/40 z-50'>
             <div className='p-2 rounded-lg bg-zinc-700 flex space-x-2'>
                 {
                     props.navArr.map((i) => {
