@@ -15,7 +15,7 @@ import TechStack from './main/TechStack';
 const Main = () => {
   const intro = {
     h1: "I'm Yash Dhakad.",
-    p: "Full-Stack Developer with in depth experience in UI Design & Marketing based in Agra, India."
+    p: "with in depth experience in UI Design & Marketing based in Agra, India."
   }
 
   const projectsArr = [
