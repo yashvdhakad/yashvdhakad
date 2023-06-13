@@ -7,7 +7,7 @@ import {
 import Hero from "./main/Hero";
 import Nav from "./main/Nav";
 import ProjectList from "./main/ProjectList";
-import About from "./main/About";
+import About from "./main//About";
 import Blog from "./main/Blog";
 import Contact from "./main/Contact";
 import TechStack from './main/TechStack';
