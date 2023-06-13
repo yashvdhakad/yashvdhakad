@@ -32,7 +32,7 @@ const Main = () => {
     { name: "</>", url: "/" },
     // { name: "Tech Stack", url: "/techstack" },
     // { name: "All Projects", url: "/projects" },
-    { name: "About", url: "/about" },
+    // { name: "About", url: "/about" },
     // { name: "Blog", url: "/blogs" },
     { name: "Contact", url: "/contact" }
 ]
