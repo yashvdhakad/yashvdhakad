@@ -43,7 +43,7 @@ const Main = () => {
         <Routes>
           <Route exact path="/" element={<Hero key="home" intro={intro} />} />
           <Route exact path="/techstack" element={<TechStack key="techstack" />} />
-          <Route exact path="/about" element={<About key="about" />} />
+          {/* <Route exact path="/about" element={<About key="about" />} /> */}
           <Route exact path="/projects" element={<ProjectList projectsArr={projectsArr} />} />
           <Route exact path="/blogs" element={<Blog key="blog" />} />
           <Route exact path="/contact" element={<Contact key="contact" />} />
