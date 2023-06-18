@@ -8,7 +8,7 @@ import Hero from "./main/Hero";
 import Nav from "./main/Nav";
 import ProjectList from "./main/ProjectList";
 import About from "./main//About";
-import Blog from "./main/Blog";
+import Blogs from "./main/Blogs";
 import Contact from "./main/Contact";
 import TechStack from './main/TechStack';
 
@@ -50,6 +50,12 @@ const Main = () => {
     { name: "Contact", url: "/contact" }
 ]
 
+  const blogsArr = [
+    { name: "scsdcsdcsdcsdcsdc", url: "/" },
+    { name: "Tech Stack", url: "/techstack" },
+    { name: "All Projects", url: "/projects" },
+]
+
   return (
     <main className="max-w-screen-xl h-screen mx-auto lg:px-20 flex flex-col items-center space-y-10 overflow-y-scroll overflow-x-hidden">
       <Router>
@@ -58,7 +64,7 @@ const Main = () => {
           <Route exact path="/techstack" element={<TechStack key="techstack" />} />
           {/* <Route exact path="/about" element={<About key="about" />} /> */}
           <Route exact path="/projects" element={<ProjectList projectsArr={projectsArr} />} />
-          <Route exact path="/blogs" element={<Blog key="blog" />} />
+          <Route exact path="/blogs" element={<Blogs key="blog" blogsArr={blogsArr} />} />
           <Route exact path="/contact" element={<Contact key="contact" />} />
         </Routes>
         <Nav navArr={navArr} />
