@@ -6,7 +6,7 @@ import LinkedIn from '../../../assets/linkedin.png'
 
 const Logos = () => {
     return (
-        <div className="flex flex-row justify-center items-center space-x-10">
+        <div className="flex flex-row justify-center items-center space-x-10 opacity-50">
             <a target='blank' href="https://github.com/yashvdhakad"><img width="40" src={Github}></img></a>
             <a target='blank' href="https://twitter.com/yashvdhakad"><img width="40" src={Twitter}></img></a>
             <a target='blank' href="https://instagram.com/yashvdhakad"><img width="40" src={Instagram}></img></a>

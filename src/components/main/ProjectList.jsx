@@ -10,22 +10,16 @@ import Project8 from '../../assets/project8.png'
 import Project9 from '../../assets/project9.png'
 import Project10 from '../../assets/project10.png'
 import ProjectImg from './projectList/ProjectImg'
+import Project from './projectList/Project'
 
 const ProjectList = (props) => {
     return (
-        <section className='flex flex-row flex-wrap justify-center'>
-            <ProjectImg project={Project1} />
-            <ProjectImg project={Project2} />
-            <ProjectImg project={Project3} />
-            <ProjectImg project={Project4} />
-            <ProjectImg project={Project5} />
-            <ProjectImg project={Project6} />
-            <ProjectImg project={Project7} />
-            <ProjectImg project={Project8} />
-            <ProjectImg project={Project9} />
-            <ProjectImg project={Project10} />
-            <ProjectImg />
-            <ProjectImg />
+        <section className='w-screen h-screen lg:p-20 p-6 container space-y-10'>
+            <h1 className='text-7xl text-zinc-800 font-["TokyoDreams"]'>Projects</h1>
+            <p className='text-3xl text-zinc-600 font-["Rollerscript"]'>Some of the projects are from work and some are on my own time.</p>
+            <div className="grid lg:grid-cols-3 grid-cols-1 lg:grid-rows-2 gap-4" >
+                <Project projectsArr={props.projectsArr} />
+            </div>
         </section>
 
         // <div className='flex flex-col space-y-4'>
