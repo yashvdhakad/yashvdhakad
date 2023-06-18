@@ -1,6 +1,6 @@
 import React from 'react'
-import DP from '../../assets/dp.png'
-import BG from '../../assets/bg-1.svg'
+import DP from '../../assets/img/dp.jpg'
+import BG from '../../assets/svg/bg-1.svg'
 import { Link } from 'react-router-dom'
 
 const Hero = (props) => {

@@ -43,10 +43,10 @@ const Main = () => {
 
   const navArr = [
     { name: "</>", url: "/" },
-    // { name: "Tech Stack", url: "/techstack" },
+    { name: "Tech Stack", url: "/techstack" },
     { name: "All Projects", url: "/projects" },
     // { name: "About", url: "/about" },
-    // { name: "Blog", url: "/blogs" },
+    { name: "Blog", url: "/blogs" },
     { name: "Contact", url: "/contact" }
 ]
 

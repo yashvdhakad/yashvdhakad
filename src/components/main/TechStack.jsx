@@ -1,12 +1,12 @@
 import React from 'react'
-import ReactLogo from '../../assets/react.svg'
-import HTMLLogo from '../../assets/html.svg'
-import CSSLogo from '../../assets/css.svg'
-import TailwindCSSLogo from '../../assets/tailwind.svg'
-import JsLogo from '../../assets/js.svg'
-import NodeJsLogo from '../../assets/nodejs.svg'
-import MongoDBLogo from '../../assets/mongodb.svg'
-import ExpressJsLogo from '../../assets/expressjs.svg'
+import ReactLogo from '../../assets/svg/react.svg'
+import HTMLLogo from '../../assets/svg/html.svg'
+import CSSLogo from '../../assets/svg/css.svg'
+import TailwindCSSLogo from '../../assets/svg/tailwind.svg'
+import JsLogo from '../../assets/svg/js.svg'
+import NodeJsLogo from '../../assets/svg/nodejs.svg'
+import MongoDBLogo from '../../assets/svg/mongodb.svg'
+import ExpressJsLogo from '../../assets/svg/expressjs.svg'
 
 const TechStack = () => {
     return (

@@ -1,8 +1,8 @@
 import React from 'react'
-import Github from '../../../assets/github.png'
-import Twitter from '../../../assets/twitter.png'
-import Instagram from '../../../assets/instagram.png'
-import LinkedIn from '../../../assets/linkedin.png'
+import Github from '../../../assets/img/github.png'
+import Twitter from '../../../assets/img/twitter.png'
+import Instagram from '../../../assets/img/instagram.png'
+import LinkedIn from '../../../assets/img/linkedin.png'
 
 const Logos = () => {
     return (
