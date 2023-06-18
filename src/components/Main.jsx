@@ -12,7 +12,7 @@ import Blogs from "./main/Blogs";
 import Contact from "./main/Contact";
 import TechStack from './main/TechStack';
 
-const Main = () => {
+const Main = (props) => {
   const intro = {
     h1: "I'm Yash Dhakad.",
     p: "with in depth experience in UI Design & Marketing based in Agra, India."
@@ -26,13 +26,13 @@ const Main = () => {
       source: "../../assets/project1.png",
       url: "/",
       time: "Oct 2022",
-    },{
+    }, {
       name: "2. eNotes App: Note whatever & whenever!",
       tech: "HTML, CSS, JS-MERN",
       source: "../../assets/project1.png",
       url: "/",
       time: "Oct 2022",
-    },{
+    }, {
       name: "3. CLI Quiz Game: Bachpan Ka Yaar",
       tech: "HTML, CSS, JS-MERN",
       source: "../../assets/project1.png",
@@ -48,17 +48,20 @@ const Main = () => {
     // { name: "About", url: "/about" },
     { name: "Blog", url: "/blogs" },
     { name: "Contact", url: "/contact" }
-]
+  ]
 
   const blogsArr = [
-    { name: "scsdcsdcsdcsdcsdc", url: "/" },
-    { name: "Tech Stack", url: "/techstack" },
-    { name: "All Projects", url: "/projects" },
-]
+    {
+      name: "SEO tips for beginners | Initial factors to consider",
+      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum debitis officia est neque, doloremque tempora sed rerum, recusandae nihil nam atque, quisquam voluptatum amet?",
+      url: "main/blogs/blog/seo-tips-for-begginers"
+    },
+  ]
 
   return (
     <main className="max-w-screen-xl h-screen mx-auto lg:px-20 flex flex-col items-center space-y-10 overflow-y-scroll overflow-x-hidden">
       <Router>
+        <i onClick={props.clickHandler} className={`bi bi-${props.mode} fixed top-20 right-20 text-2xl cursor-pointer`}></i>
         <Routes>
           <Route exact path="/" element={<Hero key="home" intro={intro} />} />
           <Route exact path="/techstack" element={<TechStack key="techstack" />} />

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 const Hero = (props) => {
     return (
-        <section className="lg:h-screen py-40 px-6 relative flex lg:flex-row flex-col-reverse justify-between items-center lg:space-x-40 bg-[#c8c8c8]">
+        <section className="lg:h-screen py-40 px-6 relative flex lg:flex-row flex-col-reverse justify-between items-center lg:space-x-40">
             <div className='flex flex-col justify-center items-center space-y-12 text-center'>
                 <img className='lg:absolute lg:left-0 lg:top-20 rotate-center z-10' width="350" src={BG} alt="" />
                 <h1 className="lg:text-9xl text-8xl font-thin font-['TokyoDreams'] text-zinc-700 z-20">{props.intro.h1}</h1>
