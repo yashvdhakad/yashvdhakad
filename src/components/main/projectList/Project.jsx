@@ -10,7 +10,7 @@ const Project = (props) => {
           <div className="">{project.description}</div>
         </div>
         <div className="space-x-6 text-base">
-          <a className='px-4 py-2 rounded-lg border border-red-400/80 shadow shadow-red-800/20 hover:shadow-sm' target='blank' href={project.url}>Live Demo</a>
+          <a className='px-4 py-2 rounded-lg border border-zinc-300 shadow shadow-zinc-800/20 hover:shadow-sm' target='blank' href={project.url}>Live Demo</a>
           <a className='px-4 py-2 rounded-lg border border-zinc-300 shadow shadow-zinc-800/20 hover:shadow-sm' target='blank' href={project.source}>Source Code</a>
         </div>
       </div>
