@@ -61,12 +61,12 @@ const Main = (props) => {
   return (
     <main className="max-w-screen-xl h-screen mx-auto lg:px-20 flex flex-col items-center space-y-10 overflow-y-scroll overflow-x-hidden">
       <Router>
-        <i onClick={props.clickHandler} className={`bi bi-${props.mode} fixed lg:top-20 lg:right-20 top-6 right-6 text-2xl text-white cursor-pointer z-50`}></i>
+        <i onClick={props.clickHandler} className={`bi bi-${props.mode} fixed lg:top-20 lg:right-20 top-6 right-6 text-2xl ${props.mode === "sun-fill" ? "text-zinc-800" : "text-zinc-400"} cursor-pointer z-50`}></i>
         <Routes>
           <Route exact path="/" element={<Hero mode={props.mode} key="home" intro={intro} />} />
           <Route exact path="/techstack" element={<TechStack key="techstack" />} />
           {/* <Route exact path="/about" element={<About key="about" />} /> */}
-          <Route exact path="/projects" element={<ProjectList projectsArr={projectsArr} />} />
+          <Route exact path="/projects" element={<ProjectList mode={props.mode} projectsArr={projectsArr} />} />
           <Route exact path="/blogs" element={<Blogs key="blog" blogsArr={blogsArr} />} />
           <Route exact path="/contact" element={<Contact key="contact" />} />
         </Routes>
