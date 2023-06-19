@@ -67,7 +67,7 @@ const Main = (props) => {
           <Route exact path="/techstack" element={<TechStack key="techstack" />} />
           {/* <Route exact path="/about" element={<About key="about" />} /> */}
           <Route exact path="/projects" element={<ProjectList mode={props.mode} projectsArr={projectsArr} />} />
-          <Route exact path="/blogs" element={<Blogs key="blog" blogsArr={blogsArr} />} />
+          <Route exact path="/blogs" element={<Blogs mode={props.mode} key="blog" blogsArr={blogsArr} />} />
           <Route exact path="/contact" element={<Contact key="contact" />} />
         </Routes>
         <Nav navArr={navArr} />
