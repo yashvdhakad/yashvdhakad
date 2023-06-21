@@ -4,7 +4,7 @@ import Main from './components/Main'
 import { useState } from 'react';
 
 function App() {
-  const [mode, setMode] = useState("moon-fill")
+  const [mode, setMode] = useState("sun-fill")
 
   const clickHandler = () => {
     return (
