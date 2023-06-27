@@ -5,7 +5,7 @@ const Blogs = (props) => {
   return (
     <section className={`h-screen lg:px-0 px-6 py-20 ${props.mode === "moon-fill" ? "text-zinc-400" : "text-zinc-800"} font-["TokyoDreams"] space-y-10`}>
       <h1 className='text-7xl'>Blogs</h1>
-      <div className="grid lg:grid-cols-2 gap-10">
+      <div className="space-y-10">
         <Blog blogsArr={props.blogsArr} />
         <Blog blogsArr={props.blogsArr} />
         <Blog blogsArr={props.blogsArr} />
