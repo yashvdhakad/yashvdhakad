@@ -15,13 +15,13 @@ import TechStack from './main/TechStack';
 const Main = (props) => {
   const intro = {
     h1: "I'm Yash Dhakad.",
-    p: "with in depth experience in UI Design & Marketing based in Agra, India."
+    p: "and your unfair advantage, With hell lot of skills in portfolio."
   }
 
   const projectsArr = [
     {
       name: "1. News Monk: Read worthy news at your finger tips!",
-      description: "News Monk is a personalized news aggregator that organizes and highlights what's happening in the world so you can quickly catch up and discover more about the stories that matter to you. News Monk is a personalized news aggregator that organizes and highlights what's happening in the world so you can quickly catch up.",
+      // description: "News Monk is a personalized news aggregator that organizes and highlights what's happening in the world so you can quickly catch up and discover more about the stories that matter to you. News Monk is a personalized news aggregator that organizes and highlights what's happening in the world so you can quickly catch up.",
       tech: "HTML, CSS, JS-MERN",
       source: "../../assets/project1.png",
       url: "/",
@@ -38,12 +38,66 @@ const Main = (props) => {
       source: "../../assets/project1.png",
       url: "/",
       time: "Oct 2022",
+    }, {
+      name: "3. CLI Quiz Game: Bachpan Ka Yaar",
+      tech: "HTML, CSS, JS-MERN",
+      source: "../../assets/project1.png",
+      url: "/",
+      time: "Oct 2022",
+    }, {
+      name: "3. CLI Quiz Game: Bachpan Ka Yaar",
+      tech: "HTML, CSS, JS-MERN",
+      source: "../../assets/project1.png",
+      url: "/",
+      time: "Oct 2022",
+    }, {
+      name: "3. CLI Quiz Game: Bachpan Ka Yaar",
+      tech: "HTML, CSS, JS-MERN",
+      source: "../../assets/project1.png",
+      url: "/",
+      time: "Oct 2022",
+    }, {
+      name: "3. CLI Quiz Game: Bachpan Ka Yaar",
+      tech: "HTML, CSS, JS-MERN",
+      source: "../../assets/project1.png",
+      url: "/",
+      time: "Oct 2022",
+    }, {
+      name: "3. CLI Quiz Game: Bachpan Ka Yaar",
+      tech: "HTML, CSS, JS-MERN",
+      source: "../../assets/project1.png",
+      url: "/",
+      time: "Oct 2022",
+    }, {
+      name: "3. CLI Quiz Game: Bachpan Ka Yaar",
+      tech: "HTML, CSS, JS-MERN",
+      source: "../../assets/project1.png",
+      url: "/",
+      time: "Oct 2022",
+    }, {
+      name: "3. CLI Quiz Game: Bachpan Ka Yaar",
+      tech: "HTML, CSS, JS-MERN",
+      source: "../../assets/project1.png",
+      url: "/",
+      time: "Oct 2022",
+    }, {
+      name: "3. CLI Quiz Game: Bachpan Ka Yaar",
+      tech: "HTML, CSS, JS-MERN",
+      source: "../../assets/project1.png",
+      url: "/",
+      time: "Oct 2022",
+    }, {
+      name: "3. CLI Quiz Game: Bachpan Ka Yaar",
+      tech: "HTML, CSS, JS-MERN",
+      source: "../../assets/project1.png",
+      url: "/",
+      time: "Oct 2022",
     }
   ]
 
   const navArr = [
     { name: "</>", url: "/" },
-    { name: "Tech Stack", url: "/techstack" },
+    // { name: "Tech Stack", url: "/techstack" },
     { name: "All Projects", url: "/projects" },
     // { name: "About", url: "/about" },
     { name: "Blog", url: "/blogs" },

@@ -13,7 +13,7 @@ function App() {
   }
 
   return (
-    <div className={`relative ${mode === 'sun-fill' ? "bg-[#c8c8c8]" : "bg-zinc-900"}`}>
+    <div className={`relative ${mode === 'sun-fill' ? "bg-zinc-200" : "bg-zinc-900"}`}>
         <Main mode={mode} clickHandler={clickHandler} />
     </div>
   )
