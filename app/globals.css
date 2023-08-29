@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Akira-Bold;
+  src: url("./assets/fonts/Akira\ Expanded\ Bold.otf");
+}
+@font-face {
+  font-family: Akira-SuperBold;
+  src: url("./assets/fonts/Akira\ Expanded\ SuperBold.otf");
+}
+@font-face {
+  font-family: Akira-Outline;
+  src: url("./assets/fonts/Akira\ Expanded\ Outline.otf");
+}
+
+body {
+  color: #f5f5f5;
+  background: #1a1a1a;
+}
