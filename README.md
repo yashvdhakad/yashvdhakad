@@ -2,13 +2,13 @@
   <img src="https://capsule-render.vercel.app/api?text=Hey%20Everyone!%F0%9F%95%B9%EF%B8%8F&animation=fadeIn&type=waving&color=gradient&height=100" alt="Animated     Greeting"/>
 
 <div id="badges" align="center">
-  <a href="https://www.linkedin.com/in/sahil-jais/">
+  <a href="https://www.linkedin.com/in/yashvdhakad/">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
-  <a href="https://www.instagram.com/_._sahil_._jaiswal_._/">
+  <a href="https://www.instagram.com/yashvdhakad/">
     <img src="https://img.shields.io/badge/Instagram-pink?style=for-the-badge&logo=insatgram&logoColor=white" alt="Instagram Badge"/>
   </a>
-  <a href="https://twitter.com/Sahil_Jaiswal02">
+  <a href="https://twitter.com/yashvdhakad">
     <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
   </a>
 </div>
@@ -58,6 +58,6 @@ I am a Full Stack Web Developer and UI Designer <img src="https://media.giphy.co
 </div>
 
 ### :fire: My Stats :
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=sahiljaiswal02&theme=dark&background=000000)](https://git.io/streak-stats)
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=yashvdhakad&theme=dark&background=000000)](https://git.io/streak-stats)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sahiljaiswal02&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yashvdhakad&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
