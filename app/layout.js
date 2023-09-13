@@ -1,7 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
-import Header from './components/Header'
-import BannerMini from './components/BannerMini'
+import Header from './components/Navbar'
+import BannerMini from './components/Banner1'
 
 const inter = Inter({ subsets: ['latin'] })
 
