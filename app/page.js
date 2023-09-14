@@ -15,7 +15,7 @@ export default function Home() {
         innerSize={8}
         outerSize={40}
         innerScale={1}
-        outerScale={2}
+        outerScale={1.6}
         outerAlpha={0}
         outerStyle={{
           mixBlendMode: "difference",

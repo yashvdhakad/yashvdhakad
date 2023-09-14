@@ -1,17 +1,23 @@
 import Image from "next/image";
 import Button from "./Button";
 import dp from "../assets/heroDP.webp";
+import bg from "../assets/bg.webp";
 
 const Hero = () => {
-  const dpSize = 500;
+  const dpSize = 1000;
 
   return (
-    <section className="w-full flex justify-between items-center border border-red-600">
-      <div className="h-full flex flex-col justify-between border border-blue-500">
-        <div>
-          <h1>Imagine Achieving 10x ROI <span>in Just One Month.</span></h1>
-          <h3>I Craft Digital Experiences that Make it Possible.</h3>
-          <p>
+    <section className="w-full flex justify-between items-center">
+      <div className="w-2/3 h-full p-6 flex flex-col justify-between bg-hero bg-no-repeat bg-cover bg-center bg-fixed border border-white/10 rounded-lg">
+        <div className="flex flex-col gap-4">
+          <h1 className="text-7xl font-bold">
+            Imagine Achieving 10x ROI{" "}
+            <span className="text-4xl font-bold">in Just One Month.</span>
+          </h1>
+          <h3 className="text-2xl font-bold">
+            I Craft Digital Experiences that Make it Possible.
+          </h3>
+          <p className="text-lg">
             Your Business, My Commitment. When we collaborate, your business's
             success becomes my priority. And I deliver f* exceptional RESULTS.
           </p>
@@ -22,9 +28,9 @@ const Hero = () => {
         </div>
         <div>Tech Stack</div>
       </div>
-      <div className="relative">
+      <div className="w-1/3 relative">
         <Image
-          className="border border-white/10 rounded-lg"
+          className="border border-white/10 rounded-lg shadow-md"
           src={dp}
           alt="Yash Dhakad DP"
           width={dpSize}
