@@ -26,18 +26,21 @@ const Hero = () => {
         <Image
           className="border border-white/10 rounded-lg"
           src={dp}
+          alt="Yash Dhakad DP"
           width={dpSize}
           height={dpSize}
         />
         <Image
           className="rounded-lg absolute top-0 blur-xl -z-10"
           src={dp}
+          alt="Yash Dhakad DP"
           width={dpSize}
           height={dpSize}
         />
         <Image
           className="rounded-lg absolute top-0 blur-3xl -z-10"
           src={dp}
+          alt="Yash Dhakad DP"
           width={dpSize}
           height={dpSize}
         />
