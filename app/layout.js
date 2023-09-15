@@ -1,6 +1,9 @@
+"use client";
+
 import "./globals.css";
 import { Inter } from "next/font/google";
 import ContextProvider from "./context/portfolioContext";
+import AnimatedCursor from "react-animated-cursor";
 import Navigation from "./components/Navigation";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -18,6 +21,20 @@ export default function RootLayout({ children }) {
         <ContextProvider>
           {children}
           <Navigation />
+          <AnimatedCursor
+            innerSize={8}
+            outerSize={40}
+            innerScale={1}
+            outerScale={1.6}
+            outerAlpha={0}
+            outerStyle={{
+              mixBlendMode: "difference",
+              backgroundColor: "#18181b",
+            }}
+            innerStyle={{
+              backgroundColor: "#18181b",
+            }}
+          />
         </ContextProvider>
       </body>
     </html>
