@@ -21,7 +21,7 @@ const Navbar = () => {
         return (
           <Link
             key={i.name}
-            className="px-4 py-2 bg-white/10 text-zinc-200 text-base font-medium rounded-lg border border-white/10 transition-all hover:scale-95 focus:bg-zinc-200 focus:text-zinc-900 select-none"
+            className="px-4 py-2 bg-white/10 text-base font-medium rounded-lg border border-white/10 transition-all hover:scale-95 focus:bg-zinc-200 focus:text-zinc-900 select-none"
             href={i.url}
           >
             {i.name}

@@ -8,8 +8,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "hero": "url('/app/assets/bg.webp')",
-        // "noise": "url('/app/assets/noise.webp')",
+        "main": "url('/app/assets/bg.webp')",
+        "noise": "url('/app/assets/noise.webp')",
       },
     },
   },
