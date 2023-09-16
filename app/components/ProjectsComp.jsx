@@ -34,7 +34,8 @@ const ProjectsComp = () => {
             </div>
           </div>
           <div className="flex flex-col gap-1">
-            <p className="self-start text-sm font-medium opacity-60">
+            <p className="self-start text-sm font-medium opacity-60
+            ">
               Duration
             </p>
             <p className="text-sm font-medium px-3 py-2 self-start bg-white/10 border border-white/10 rounded-lg">
