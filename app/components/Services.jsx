@@ -9,7 +9,7 @@ const Services = () => {
       cta: "Learn More ›",
     },
     {
-      h5: "Landing Pages",
+      h5: "Converting Landing Pages",
       p: "This is going to be some text about this sub-section.",
       cta: "Learn More ›",
     },
@@ -38,7 +38,7 @@ const Services = () => {
   return (
     <section className="w-full my-60 p-10 flex flex-col gap-10 border border-white/10 rounded-lg bg-white/10 backdrop-blur-xl shadow">
       <div className="flex flex-col gap-6 drop-shadow">
-        <h2 className="text-6xl font-bold">
+        <h2 className="w-10/12 text-6xl font-bold">
           I Craft Digital Experiences that{" "}
           <span className="font-normal italic">Create IMPACT.</span>
         </h2>

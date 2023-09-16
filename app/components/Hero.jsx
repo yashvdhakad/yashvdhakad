@@ -30,7 +30,7 @@ const Hero = () => {
               Imagine Achieving 10x ROI in <span className="font-normal italic">Just 30 Days.</span>
             </h1>
             <h3 className="text-2xl font-bold">
-              I am Yash and I Craft Digital Experiences that Make it Possible.
+              I'm Yash and I Craft Digital Experiences that Make it Possible.
             </h3>
             {/* <p className="text-lg text-zinc-900 font-medium">
               When we collaborate, your business's success becomes my priority.
