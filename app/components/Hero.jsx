@@ -12,46 +12,42 @@ const Hero = () => {
   return (
     <section className="w-full mt-36 mb-60 flex lg:flex-nowrap flex-wrap justify-between items-center gap-6 select-none">
       <div className="w-8/12 flex flex-col justify-between gap-6">
-        <div className="p-6 flex flex-col justify-between relative rounded-lg shadow-lg">
-          <Image
+        <div className="p-6 flex flex-col justify-between relative bg-white/10 backdrop-blur-xl border border-white/10 rounded-lg shadow-md">
+          {/* <Image
             className="w-full h-full absolute left-0 top-0 border border-white/10 rounded-lg -z-20 -scale-y-100"
             width={bgSize}
             src={bg}
             alt="bg"
-          />
-          <Image
+          /> */}
+          {/* <Image
             className="w-full h-full absolute left-0 top-0 rounded-lg -z-10 mix-blend-soft-light"
             width={bgSize}
             src={noise}
             alt="bg"
-          />
-          <div className="flex flex-col gap-6 text-zinc-900 drop-shadow">
+          /> */}
+          <div className="flex flex-col gap-6 drop-shadow">
             <h1 className="text-7xl font-bold tracking-tight">
-              Imagine Achieving 10x ROI
-              <span className="text-4xl font-bold -tracking-normal">
-                {" "}
-                in Just One Month.
-              </span>
+              Imagine Achieving 10x ROI in <span className="font-normal italic">Just 30 Days.</span>
             </h1>
             <h3 className="text-2xl font-bold">
-              I Craft Digital Experiences that Make it Possible.
+              I am Yash and I Craft Digital Experiences that Make it Possible.
             </h3>
-            <p className="text-lg text-zinc-900 font-medium">
+            {/* <p className="text-lg text-zinc-900 font-medium">
               When we collaborate, your business's success becomes my priority.
               And I deliver RESULTS.
-            </p>
+            </p> */}
             <div className="">
               <Button cta="Claim your FREE 30min Consultation ›" />
-              <button className="pl-6 font-bold">
+              <button className="pl-6 font-bold opacity-80">
                 Discover My Profit-Boosting Strategy
               </button>
             </div>
           </div>
         </div>
         <div className="h-16">
-          <Marquee className="rounded-lg" speed={80}>
+          <Marquee className="rounded-lg" speed={40}>
             <svg
-              className="ml-6 drop-shadow"
+              className="ml-10 drop-shadow"
               height="60"
               viewBox="0 0 27 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -74,7 +70,7 @@ const Hero = () => {
               />
             </svg>
             <svg
-              className="ml-6 drop-shadow"
+              className="ml-10 drop-shadow"
               height="60"
               viewBox="0 0 128 128"
               xmlns="http://www.w3.org/2000/svg"
@@ -85,7 +81,7 @@ const Hero = () => {
               />
             </svg>
             <svg
-              className="ml-6 drop-shadow"
+              className="ml-10 drop-shadow"
               height="60"
               viewBox="0 0 32 32"
               xmlns="http://www.w3.org/2000/svg"
@@ -96,7 +92,7 @@ const Hero = () => {
               />
             </svg>
             <svg
-              className="ml-6 drop-shadow"
+              className="ml-10 drop-shadow"
               height="60"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -107,7 +103,7 @@ const Hero = () => {
               />
             </svg>
             <svg
-              className="ml-6 drop-shadow"
+              className="ml-10 drop-shadow"
               height="60"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -118,7 +114,7 @@ const Hero = () => {
               />
             </svg>
             <svg
-              className="ml-6 drop-shadow"
+              className="ml-10 drop-shadow"
               height="60"
               viewBox="0 0 128 128"
               xmlns="http://www.w3.org/2000/svg"
@@ -221,7 +217,7 @@ const Hero = () => {
               />
             </svg>
             <svg
-              className="ml-6 drop-shadow"
+              className="ml-10 drop-shadow"
               height="60"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -232,7 +228,7 @@ const Hero = () => {
               />
             </svg>
             <svg
-              className="ml-6 drop-shadow"
+              className="ml-10 drop-shadow"
               height="60"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -243,7 +239,7 @@ const Hero = () => {
               />
             </svg>
             <svg
-              className="ml-6 drop-shadow"
+              className="ml-10 drop-shadow"
               height="60"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -260,7 +256,7 @@ const Hero = () => {
               />
             </svg>
             <svg
-              className="ml-6 drop-shadow"
+              className="ml-10 drop-shadow"
               height="60"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"

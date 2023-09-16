@@ -19,8 +19,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <ContextProvider>
-          {children}
-          <Navigation />
           <AnimatedCursor
             innerSize={8}
             outerSize={40}
@@ -35,6 +33,8 @@ export default function RootLayout({ children }) {
               backgroundColor: "#18181b",
             }}
           />
+          {children}
+          <Navigation />
         </ContextProvider>
       </body>
     </html>
