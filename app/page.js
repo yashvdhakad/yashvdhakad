@@ -6,6 +6,7 @@ import Banner1 from "./components/Banner1";
 import Hero from "./components/Hero";
 import Stats from "./components/Stats";
 import Services from "./components/Services";
+import ProjectComp from "./components/ProjectsComp";
 
 export default function Home() {
   const { user } = useContext(PortfolioContext);
@@ -16,6 +17,7 @@ export default function Home() {
       <Hero />
       <Stats />
       <Services />
+      <ProjectComp />
     </section>
   );
 }
