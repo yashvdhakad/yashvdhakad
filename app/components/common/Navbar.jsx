@@ -3,11 +3,12 @@ import Link from "next/link";
 const Navbar = () => {
   const navArr = [
     { name: "/", url: "/" },
-    // { name: "Copywriting", url: "/copywriting" },
-    // { name: "Design", url: "/design" },
-    // { name: "Development", url: "/development" },
-    // { name: "Clients", url: "/clients" },
+    { name: "Copywriting", url: "/copywriting" },
+    { name: "Design", url: "/design" },
+    { name: "Development", url: "/development" },
+    { name: "Clients", url: "/clients" },
     { name: "Projects", url: "/projects" },
+    { name: "Case Studies", url: "/case-studies" },
     { name: "Store", url: "/store" },
     { name: "About", url: "/about" },
     { name: "Contact", url: "/contact" },

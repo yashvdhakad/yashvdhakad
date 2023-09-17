@@ -17,7 +17,7 @@
 
 body {
   /* background: #e4e4e7; */
-  background: url(../app/assets/mainBg.jpg) fixed center;
+  background: url(../app/assets/mainBg.webp) fixed center;
   background-size: cover;
   color: #09090b;
 }

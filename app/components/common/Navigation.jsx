@@ -20,7 +20,7 @@ const Navigation = () => {
           />
         </svg>
         <Navbar />
-        <Link href="https://wa.me/+917017174456" target="blank">
+        {/* <Link href="https://wa.me/+917017174456" target="blank">
           <svg
             className="animate-pulse"
             width="80"
@@ -110,7 +110,7 @@ const Navigation = () => {
               fill="#181818"
             />
           </svg>
-        </Link>
+        </Link> */}
       </div>
     </section>
   );
