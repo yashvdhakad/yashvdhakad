@@ -36,7 +36,7 @@ const Services = () => {
   ];
 
   return (
-    <section className="w-full my-60 p-10 flex flex-col gap-10 border border-white/10 rounded-lg bg-white/10 backdrop-blur-xl shadow">
+    <section className="w-full my-60 p-10 flex flex-col gap-10 border border-white/10 rounded-lg bg-main bg-cover bg-center shadow">
       <div className="flex flex-col gap-6 drop-shadow">
         <h2 className="w-10/12 text-6xl font-bold">
           I Craft Digital Experiences that{" "}

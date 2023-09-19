@@ -2,22 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @font-face {
-  font-family: Akira-Bold;
-  src: url("./assets/fonts/Akira\ Expanded\ Bold.otf");
-}
-@font-face {
-  font-family: Akira-SuperBold;
-  src: url("./assets/fonts/Akira\ Expanded\ SuperBold.otf");
-}
-@font-face {
-  font-family: Akira-Outline;
-  src: url("./assets/fonts/Akira\ Expanded\ Outline.otf");
-} */
-
 body {
-  /* background: #e4e4e7; */
-  background: url(../app/assets/mainBg.webp) fixed center;
+  background: url(../app/assets/bg3.webp) fixed center;
   background-size: cover;
   color: #09090b;
+  /* color: #e4e4e7; */
 }

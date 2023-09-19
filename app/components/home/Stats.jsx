@@ -8,7 +8,7 @@ const Stats = () => {
       p: "I’ve spent a majority of my time in software development industry in variety of markets.",
     },
     {
-      h1: "98%",
+      h1: "96%",
       h4: "Clients Satisfaction Rate",
       p: "My top-most priority is to give you tangible results and my client satisfaction rate is showing that.",
     },
@@ -18,7 +18,7 @@ const Stats = () => {
       p: "I’ve worked upon intense and large projects in many fields which made me an expert.",
     },
     {
-      h1: "4+",
+      h1: "6+",
       h4: "Clients Served",
       p: "All clients are working from the beginning and will keep working.",
     },
@@ -31,7 +31,7 @@ const Stats = () => {
 
   return (
     <section className="w-full my-60 flex flex-col">
-      <div className="p-6 flex justify-between border rounded-lg rounded-b-2xl border-white/10 bg-white/10 backdrop-blur-xl shadow">
+      <div className="p-6 flex justify-between border rounded-lg rounded-b-2xl border-white/10 bg-main bg-cover bg-center shadow">
         {statsArr.map((stat) => {
           return (
             <div className="flex flex-col items-center gap-2 drop-shadow">

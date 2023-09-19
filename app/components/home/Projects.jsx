@@ -47,6 +47,72 @@ const Projects = () => {
         cta2: "Source Code",
       },
     },
+    {
+      projectTagsArr: [
+        {
+          title: "Category",
+          tags: ["Full Stack"],
+        },
+        {
+          title: "Tools/Tech-Stack",
+          tags: ["Figma", "NextJs", "Appwrite"],
+        },
+        {
+          title: "Duration",
+          tags: ["2 weeks"],
+        },
+      ],
+      projectInfoObj: {
+        title: "E-Commerce Platform - SWARNA",
+        para: "A D2C Marketplace to Buy & Sell Imitation Jewellery of various metals and 920 Silver Jewellery directly from the Manufacturers.",
+        cta1: "Live View",
+        cta2: "Source Code",
+      },
+    },
+    {
+      projectTagsArr: [
+        {
+          title: "Category",
+          tags: ["Full Stack"],
+        },
+        {
+          title: "Tools/Tech-Stack",
+          tags: ["Figma", "NextJs", "Appwrite"],
+        },
+        {
+          title: "Duration",
+          tags: ["2 weeks"],
+        },
+      ],
+      projectInfoObj: {
+        title: "E-Commerce Platform - SWARNA",
+        para: "A D2C Marketplace to Buy & Sell Imitation Jewellery of various metals and 920 Silver Jewellery directly from the Manufacturers.",
+        cta1: "Live View",
+        cta2: "Source Code",
+      },
+    },
+    {
+      projectTagsArr: [
+        {
+          title: "Category",
+          tags: ["Full Stack"],
+        },
+        {
+          title: "Tools/Tech-Stack",
+          tags: ["Figma", "NextJs", "Appwrite"],
+        },
+        {
+          title: "Duration",
+          tags: ["2 weeks"],
+        },
+      ],
+      projectInfoObj: {
+        title: "E-Commerce Platform - SWARNA",
+        para: "A D2C Marketplace to Buy & Sell Imitation Jewellery of various metals and 920 Silver Jewellery directly from the Manufacturers.",
+        cta1: "Live View",
+        cta2: "Source Code",
+      },
+    },
   ];
 
   return (
@@ -83,7 +149,7 @@ const Projects = () => {
             {/* center box */}
             <div className="w-5/12 border rounded-lg border-white/10 bg-white/10 backdrop-blur-xl shadow"></div>
             {/* right box */}
-            <div className="w-4/12 p-6 flex flex-col gap-6 border border-white/10 rounded-lg bg-white/10 backdrop-blur-xl shadow">
+            <div className="w-4/12 p-6 flex flex-col gap-6 border border-white/10 rounded-lg bg-main bg-cover  shadow">
               <div className="flex flex-col gap-2 drop-shadow">
                 <h3 className="text-4xl font-bold">
                   {project.projectInfoObj.title}

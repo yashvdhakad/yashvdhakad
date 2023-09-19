@@ -20,7 +20,7 @@ const Navbar = () => {
         return (
           <Link
             key={i.name}
-            className={`px-4 py-2 bg-white/10 backdrop-blur-xl border border-white/10 text-base font-semibold rounded-lg transition-all hover:scale-95 focus:bg-zinc-200 focus:text-zinc-900 select-none shadow hover:shadow-sm ${
+            className={`px-4 py-2 bg-white/10 backdrop-blur-xl border border-white/10 text-base font-semibold rounded-lg transition-all hover:scale-95 focus:bg-zinc-200 focus:text-zinc-900 select-none shadow-md hover:shadow-sm ${
               i.name === "/" || i.name === "Contact"
                 ? ""
                 : "pointer-events-none opacity-40"
