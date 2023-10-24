@@ -13,8 +13,20 @@ const Hero = () => {
 
   return (
     <section className="w-full mt-36 mb-60 flex flex-row lg:flex-nowrap flex-wrap justify-between items-center gap-6 select-none">
+      {/* text and marquee */}
+      <div className="w-8/12 flex flex-col gap-6">
+        <div className="p-6 flex flex-col gap-6 border border-white/10 rounded-lg drop-shadow shadow bg-main bg-cover">
+          <h1 className="text-7xl font-semibold tracking-tighter">
+            {heroData.h1a}
+            <span className="font-normal italic">{heroData.h1b}</span>
+          </h1>
+          <h3 className="text-2xl font-semibold">{heroData.h3}</h3>
+          <Button cta="Book A Quick Call" />
+        </div>
+        <LogoMarquee speed={40} />
+      </div>
       {/* dp */}
-      {/* <div className="relative -scale-x-100">
+      <div className="relative -scale-x-100">
         <Image
           className="w-full border border-white/10 rounded-lg shadow-lg"
           src={dp}
@@ -33,22 +45,7 @@ const Hero = () => {
           alt="Yash Dhakad DP"
           height={dpSize}
         />
-      </div> */}
-      {/* text and marquee */}
-      {/* <div className="w-8/12 flex flex-col gap-6">
-        <div className="p-6 flex flex-col items-center gap-6 text-center border border-white/10 rounded-lg drop-shadow shadow bg-main bg-cover">
-          <h1 className="text-7xl font-semibold tracking-tighter">
-            {heroData.h1a}
-            <span className="font-normal italic">{heroData.h1b}</span>
-          </h1>
-          <h3 className="text-2xl font-semibold">{heroData.h3}</h3>
-          <Button cta="Book A Quick Call" />
-        </div>
-        <LogoMarquee speed={40} />
-      </div> */}
-      <h1 className="text-9xl font-bold tracking-tighter uppercase">
-        Building...
-      </h1>
+      </div>
     </section>
   );
 };

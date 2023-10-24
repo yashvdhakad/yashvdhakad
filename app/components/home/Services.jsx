@@ -24,6 +24,11 @@ const Services = () => {
       cta: "Learn More ›",
     },
     {
+      h5: "Desktop Applications",
+      p: "This is going to be some text about this sub-section.",
+      cta: "Learn More ›",
+    },
+    {
       h5: "Shopify/Zoho Store",
       p: "This is going to be some text about this sub-section.",
       cta: "Learn More ›",

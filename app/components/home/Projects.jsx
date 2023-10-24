@@ -19,7 +19,7 @@ const Projects = () => {
         },
       ],
       projectInfoObj: {
-        title: "E-Commerce Platform - SWARNA",
+        title: "E-Commerce Platform - RAJATAM",
         para: "A D2C Marketplace to Buy & Sell Imitation Jewellery of various metals and 920 Silver Jewellery directly from the Manufacturers.",
         cta1: "Live View",
         cta2: "Source Code",

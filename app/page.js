@@ -7,7 +7,7 @@ import Hero from "./components/home/Hero";
 import Stats from "./components/home/Stats";
 import Services from "./components/home/Services";
 import Projects from "./components/home/Projects";
-import USP from "./components/home/USP"
+import USP from "./components/home/USP";
 
 export default function Home() {
   const cta = "🦅 Join Us now to 10X your ROI within A Month. Cheers!";
@@ -15,12 +15,12 @@ export default function Home() {
 
   return (
     <section className="max-w-screen-xl m-auto">
-      {/* <Banner1 cta={cta} /> */}
+      <Banner1 cta={cta} />
       <Hero />
-      {/* <Stats />
+      <Stats />
       <Services />
       <Projects />
-      <USP /> */}
+      <USP />
     </section>
   );
 }
