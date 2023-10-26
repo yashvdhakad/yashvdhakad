@@ -41,7 +41,7 @@ const Services = () => {
   ];
 
   return (
-    <section className="w-full my-60 p-10 flex flex-col gap-10 border border-white/10 rounded-lg bg-main bg-cover bg-center shadow">
+    <section className="w-full my-60 p-10 flex flex-col gap-10 border border-white/10 rounded bg-main bg-cover bg-center shadow">
       <div className="flex flex-col gap-6 drop-shadow">
         <h2 className="w-10/12 text-6xl font-bold">
           I Craft Digital Experiences that{" "}
@@ -64,11 +64,11 @@ const Services = () => {
       </div>
 
       <div>
-        <Marquee className="rounded-lg" speed={80} pauseOnHover>
+        <Marquee className="rounded" speed={80} pauseOnHover>
           {servicesArr.map((service) => {
             return (
-              <div className="ml-10 pr-6 flex items-center gap-6 border rounded-lg border-white/10 bg-white/10 shadow">
-                <div className="w-28 h-28 border rounded-lg border-white/10 bg-white/10"></div>
+              <div className="ml-10 pr-6 flex items-center gap-6 border rounded border-white/10 bg-white/10 shadow">
+                <div className="w-28 h-28 border rounded border-white/10 bg-white/10"></div>
                 <div className="flex flex-col gap-1 drop-shadow">
                   <h5 className="text-xl font-bold">{service.h5}</h5>
                   <p className="w-60 text-xs">{service.p}</p>

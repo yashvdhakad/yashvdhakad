@@ -3,8 +3,6 @@
 @tailwind utilities;
 
 body {
-  background: url(../app/assets/bg3.webp) fixed center;
-  background-size: cover;
+  background: rgb(220, 220, 220);
   color: #09090b;
-  /* color: #e4e4e7; */
 }

@@ -136,7 +136,7 @@ const Projects = () => {
                     <div className="flex flex-wrap gap-2">
                       {fields.tags.map((tag) => {
                         return (
-                          <p className="text-sm font-medium px-3 py-2 bg-white/10 border border-white/10 rounded-lg">
+                          <p className="text-sm font-medium px-3 py-2 bg-white/10 border border-white/10 rounded">
                             {tag}
                           </p>
                         );
@@ -147,9 +147,9 @@ const Projects = () => {
               })}
             </div>
             {/* center box */}
-            <div className="w-5/12 border rounded-lg border-white/10 bg-white/10 backdrop-blur-xl shadow"></div>
+            <div className="w-5/12 border rounded border-white/10 bg-white/10 backdrop-blur-xl shadow"></div>
             {/* right box */}
-            <div className="w-4/12 p-6 flex flex-col gap-6 border border-white/10 rounded-lg bg-main bg-cover  shadow">
+            <div className="w-4/12 p-6 flex flex-col gap-6 border border-white/10 rounded bg-main bg-cover  shadow">
               <div className="flex flex-col gap-2 drop-shadow">
                 <h3 className="text-4xl font-bold">
                   {project.projectInfoObj.title}

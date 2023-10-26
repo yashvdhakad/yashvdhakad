@@ -20,7 +20,7 @@ export default function Home() {
       <Stats />
       <Services />
       <Projects />
-      <USP />
+      {/* <USP /> */}
     </section>
   );
 }
