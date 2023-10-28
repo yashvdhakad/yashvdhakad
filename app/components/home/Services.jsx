@@ -67,7 +67,7 @@ const Services = () => {
         <Marquee className="rounded" speed={80} pauseOnHover>
           {servicesArr.map((service) => {
             return (
-              <div className="ml-10 pr-6 flex items-center gap-6 border rounded border-white/10 bg-white/10 shadow">
+              <div className="ml-10 pr-6 flex items-center gap-6 border rounded border-white/10 bg-white/20 shadow">
                 <div className="w-28 h-28 border rounded border-white/10 bg-white/10"></div>
                 <div className="flex flex-col gap-1 drop-shadow">
                   <h5 className="text-xl font-bold">{service.h5}</h5>
