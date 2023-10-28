@@ -31,7 +31,7 @@ const Stats = () => {
 
   return (
     <section className="w-full my-60 flex flex-col">
-      <div className="p-6 flex justify-between border rounded rounded-b-2xl border-white/10 bg-main bg-cover bg-center shadow">
+      <div className="p-6 flex justify-between rounded rounded-b-2xl bg-1 bg-cover shadow text-[#020617]">
         {statsArr.map((stat) => {
           return (
             <div className="flex flex-col items-center gap-2 drop-shadow">
@@ -46,7 +46,7 @@ const Stats = () => {
       </div>
       <div className="p-6 flex flex-col gap-6 border rounded rounded-t-2xl border-white/10 bg-white/10 backdrop-blur-xl shadow">
         <LogoMarquee speed={20} />
-        <LogoMarquee speed={20} direction="right" />
+        {/* <LogoMarquee speed={20} direction="right" /> */}
       </div>
     </section>
   );
