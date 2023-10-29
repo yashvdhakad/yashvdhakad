@@ -1,17 +1,17 @@
 import Button from "@/app/components/common/Button";
 
 const Projects = () => {
-  const heading = "Some of My Full Stack Projects.";
+  const heading = "My Real World Full-Stack Projects.";
   const projectsArr = [
     {
       projectTagsArr: [
         {
           title: "Category",
-          tags: ["Full Stack"],
+          tags: ["Full Stack Project"],
         },
         {
-          title: "Tools/Tech-Stack",
-          tags: ["Figma", "NextJs", "Appwrite"],
+          title: "Tech-Stack",
+          tags: ["NextJs", "Supabase", "Vercel"],
         },
         {
           title: "Duration",
@@ -20,95 +20,7 @@ const Projects = () => {
       ],
       projectInfoObj: {
         title: "E-Commerce Platform - RAJATAM",
-        para: "A D2C Marketplace to Buy & Sell Imitation Jewellery of various metals and 920 Silver Jewellery directly from the Manufacturers.",
-        cta1: "Live View",
-        cta2: "Source Code",
-      },
-    },
-    {
-      projectTagsArr: [
-        {
-          title: "Category",
-          tags: ["Full Stack"],
-        },
-        {
-          title: "Tools/Tech-Stack",
-          tags: ["Figma", "NextJs", "Appwrite"],
-        },
-        {
-          title: "Duration",
-          tags: ["2 weeks"],
-        },
-      ],
-      projectInfoObj: {
-        title: "E-Commerce Platform - SWARNA",
-        para: "A D2C Marketplace to Buy & Sell Imitation Jewellery of various metals and 920 Silver Jewellery directly from the Manufacturers.",
-        cta1: "Live View",
-        cta2: "Source Code",
-      },
-    },
-    {
-      projectTagsArr: [
-        {
-          title: "Category",
-          tags: ["Full Stack"],
-        },
-        {
-          title: "Tools/Tech-Stack",
-          tags: ["Figma", "NextJs", "Appwrite"],
-        },
-        {
-          title: "Duration",
-          tags: ["2 weeks"],
-        },
-      ],
-      projectInfoObj: {
-        title: "E-Commerce Platform - SWARNA",
-        para: "A D2C Marketplace to Buy & Sell Imitation Jewellery of various metals and 920 Silver Jewellery directly from the Manufacturers.",
-        cta1: "Live View",
-        cta2: "Source Code",
-      },
-    },
-    {
-      projectTagsArr: [
-        {
-          title: "Category",
-          tags: ["Full Stack"],
-        },
-        {
-          title: "Tools/Tech-Stack",
-          tags: ["Figma", "NextJs", "Appwrite"],
-        },
-        {
-          title: "Duration",
-          tags: ["2 weeks"],
-        },
-      ],
-      projectInfoObj: {
-        title: "E-Commerce Platform - SWARNA",
-        para: "A D2C Marketplace to Buy & Sell Imitation Jewellery of various metals and 920 Silver Jewellery directly from the Manufacturers.",
-        cta1: "Live View",
-        cta2: "Source Code",
-      },
-    },
-    {
-      projectTagsArr: [
-        {
-          title: "Category",
-          tags: ["Full Stack"],
-        },
-        {
-          title: "Tools/Tech-Stack",
-          tags: ["Figma", "NextJs", "Appwrite"],
-        },
-        {
-          title: "Duration",
-          tags: ["2 weeks"],
-        },
-      ],
-      projectInfoObj: {
-        title: "E-Commerce Platform - SWARNA",
-        para: "A D2C Marketplace to Buy & Sell Imitation Jewellery of various metals and 920 Silver Jewellery directly from the Manufacturers.",
+        para: "A D2C Marketplace to Buy Highest Quality 920 Silver Jewellery directly from the Manufacturers.",
         cta1: "Live View",
         cta2: "Source Code",
       },
@@ -118,7 +30,7 @@ const Projects = () => {
   return (
     <section className="w-full my-60 flex flex-col gap-6">
       {/* section heading */}
-      <h3 className="text-2xl font-bold opacity-40">{heading}</h3>
+      <h3 className="text-2xl font-semibold opacity-40">{heading}</h3>
       {/* divider */}
       <div className="border border-white/10 shadow-sm"></div>
       {/* main content box */}
@@ -147,14 +59,14 @@ const Projects = () => {
               })}
             </div>
             {/* center box */}
-            <div className="w-5/12 border rounded border-white/10 bg-white/10 backdrop-blur-xl shadow"></div>
+            <div className="w-5/12 border rounded border-white/10 shadow"></div>
             {/* right box */}
             <div className="w-4/12 p-6 flex flex-col gap-6 rounded bg-1 bg-cover shadow text-[#020617]">
               <div className="flex flex-col gap-2 drop-shadow">
                 <h3 className="text-4xl font-bold">
                   {project.projectInfoObj.title}
                 </h3>
-                <p>{project.projectInfoObj.para}</p>
+                <p className="font-medium">{project.projectInfoObj.para}</p>
               </div>
               <div>
                 <Button cta={project.projectInfoObj.cta1} />

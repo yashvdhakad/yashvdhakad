@@ -10,6 +10,7 @@ module.exports = {
       backgroundImage: {
         1: "url('../app/assets/a.gif')",
         2: "url('../app/assets/bg.webp')",
+        3: "url('../app/assets/noise.webp')",
       },
     },
   },

@@ -47,19 +47,10 @@ const Services = () => {
           I Craft Digital Experiences that{" "}
           <span className="font-normal italic">Create IMPACT.</span>
         </h2>
-        <p className="text-lg font-medium">
-          Through the fusion of my extensive expertise across various core
-          disciplines,
-        </p>
-        <p className="text-xl font-bold">
+        <p className="text-xl font-medium">
           I craft dynamic websites, captivating landing pages, innovative web
           applications, and seamless mobile applications that seamlessly align
           with your organization's objectives.
-        </p>
-        <p className="text-lg font-medium">
-          These digital assets are meticulously designed to drive profitability
-          by turbocharging your sales, while also granting you an invaluable
-          competitive edge in the market.
         </p>
       </div>
 

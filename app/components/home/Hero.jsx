@@ -6,7 +6,7 @@ import LogoMarquee from "@/app/components/common/LogoMarquee";
 const Hero = () => {
   const dpSize = 400;
   const heroData = {
-    h1: `Hi, it's Yash & I'm a Full-Stack Web Developer.`,
+    h1: `Hi, I'm Yash.`,
   };
 
   return (
@@ -16,7 +16,7 @@ const Hero = () => {
           {heroData.h1}
         </h1>
       </div>
-      <div className="w-full">
+      <div className="w-1/2">
         <LogoMarquee speed={40} />
       </div>
     </section>

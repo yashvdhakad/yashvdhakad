@@ -44,7 +44,7 @@ const Stats = () => {
           );
         })}
       </div>
-      <div className="p-6 flex flex-col gap-6 border rounded rounded-t-2xl border-white/10 bg-white/10 backdrop-blur-xl shadow">
+      <div className="p-6 flex flex-col gap-6 border rounded rounded-t-2xl border-white/10 shadow">
         <LogoMarquee speed={20} />
         {/* <LogoMarquee speed={20} direction="right" /> */}
       </div>
