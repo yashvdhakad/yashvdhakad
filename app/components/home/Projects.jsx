@@ -1,7 +1,8 @@
 import Button from "@/app/components/common/Button";
+import Marquee from "react-fast-marquee";
 
 const Projects = () => {
-  const heading = "My Real World Full-Stack Projects.";
+  const heading = "My Real World Full Stack Projects.";
   const projectsArr = [
     {
       projectTagsArr: [
@@ -30,7 +31,9 @@ const Projects = () => {
   return (
     <section className="w-full my-60 flex flex-col gap-6">
       {/* section heading */}
-      <h3 className="text-2xl font-semibold opacity-40">{heading}</h3>
+      <Marquee speed={60}  autoFill>
+        <h2 className="mr-4 text-4xl font-semibold uppercase opacity-60 overflow-hidden">{heading}</h2>
+      </Marquee>
       {/* divider */}
       <div className="border border-white/10 shadow-sm"></div>
       {/* main content box */}
@@ -48,7 +51,7 @@ const Projects = () => {
                     <div className="flex flex-wrap gap-2">
                       {fields.tags.map((tag) => {
                         return (
-                          <p className="text-sm font-medium px-3 py-2 bg-white/10 border border-white/10 rounded">
+                          <p className="text-sm font-medium px-3 py-2 border border-white/10 rounded">
                             {tag}
                           </p>
                         );

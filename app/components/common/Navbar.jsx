@@ -3,9 +3,8 @@ import Link from "next/link";
 const Navbar = () => {
   const navArr = [
     { name: "/", url: "/" },
-    { name: "Clients", url: "/clients" },
+    { name: "Pricing", url: "/pricing" },
     { name: "Projects", url: "/projects" },
-    { name: "Store", url: "/store" },
     { name: "Blog", url: "/blog" },
     { name: "Contact", url: "/contact" },
   ];
