@@ -31,7 +31,7 @@ const Projects = () => {
   return (
     <section className="w-full my-60 flex flex-col gap-6">
       {/* section heading */}
-      <Marquee speed={60}  autoFill>
+      <Marquee speed={80} autoFill>
         <h2 className="mr-4 text-4xl font-semibold uppercase opacity-60 overflow-hidden">{heading}</h2>
       </Marquee>
       {/* divider */}
