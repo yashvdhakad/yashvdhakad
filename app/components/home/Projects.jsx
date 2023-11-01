@@ -8,10 +8,10 @@ const Projects = () => {
       projectTagsArr: [
         {
           title: "Category",
-          tags: ["Full Stack Project"],
+          tags: ["Personal", "Full-Stack"],
         },
         {
-          title: "Tech-Stack",
+          title: "Main Tech-Stack",
           tags: ["NextJs", "Supabase", "Vercel"],
         },
         {
@@ -20,8 +20,8 @@ const Projects = () => {
         },
       ],
       projectInfoObj: {
-        title: "E-Commerce Platform - RAJATAM",
-        para: "A D2C Marketplace to Buy Highest Quality 920 Silver Jewellery directly from the Manufacturers.",
+        title: "RAJATAM",
+        para: "A D2C E-Commerce Marketplace to Buy Highest Quality 920 Silver Jewellery directly from the Manufacturers.",
         cta1: "Live View",
         cta2: "Source Code",
       },
@@ -29,10 +29,10 @@ const Projects = () => {
   ];
 
   return (
-    <section className="w-full my-60 flex flex-col gap-6">
+    <section id="projects" className="w-full my-60 flex flex-col gap-6">
       {/* section heading */}
       <Marquee speed={80} autoFill>
-        <h2 className="mr-4 text-4xl font-semibold uppercase opacity-60 overflow-hidden">{heading}</h2>
+        <h2 className="mr-4 text-8xl tracking-tighter  font-bold uppercase opacity-40 overflow-hidden">{heading}</h2>
       </Marquee>
       {/* divider */}
       <div className="border border-white/10 shadow-sm"></div>

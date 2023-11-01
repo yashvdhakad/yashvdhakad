@@ -17,7 +17,7 @@ export default function Home() {
     <section className="max-w-screen-xl m-auto">
       {/* <Banner1 cta={cta} /> */}
       <Hero />
-      {/* <Stats /> */}
+      <Stats />
       {/* <Services /> */}
       <Projects />
       {/* <USP /> */}

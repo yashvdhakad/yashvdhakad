@@ -45,7 +45,7 @@ const Stats = () => {
         })}
       </div>
       <div className="p-6 flex flex-col gap-6 border rounded rounded-t-2xl border-white/10 shadow">
-        <LogoMarquee speed={20} size={60} />
+        <LogoMarquee speed={40} size={60} />
         {/* <LogoMarquee speed={20} direction="right" /> */}
       </div>
     </section>

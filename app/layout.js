@@ -1,9 +1,9 @@
 import "./globals.css";
-import { Inter, Space_Grotesk } from "next/font/google";
+import { Sora } from "next/font/google";
 import ContextProvider from "./context/portfolioContext";
 import Navigation from "./components/common/Navigation";
 
-const inter = Space_Grotesk({ subsets: ["latin"] });
+const inter = Sora({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Yash Dhakad - A Full-Stack Engineer",
