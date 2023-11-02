@@ -32,9 +32,9 @@ const Hero = () => {
           Book a FREE Discovery Call ›
         </button>
       </div>
-      <div className="w-full flex justify-center items-center gap-6 text-xl">
-        <p>Tech-Stack:</p>
-        <div className="w-1/2 opacity-80">
+      <div className="w-full flex justify-center items-center gap-6">
+        <p className="opacity-60">Tech-Stack:</p>
+        <div className="w-1/2 opacity-60">
           <LogoMarquee speed={80} size={44} />
         </div>
       </div>

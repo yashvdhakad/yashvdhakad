@@ -2,7 +2,7 @@ import Marquee from "react-fast-marquee";
 
 const LogoMarquee = ({ speed, direction, size }) => {
   return (
-    <div className="h-16">
+    <div className="h-16 flex justify-center items-center border">
       <Marquee
         className="rounded-lg"
         speed={speed}
