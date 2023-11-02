@@ -32,6 +32,8 @@ const Hero = () => {
           Book a FREE Discovery Call ›
         </button>
       </div>
+      {/* divider */}
+      <div className="w-full h-[1px] bg-white/10"></div>
       <div className="w-full flex justify-center items-center gap-6">
         <p className="opacity-60">Tech-Stack:</p>
         <div className="w-1/2 opacity-60">

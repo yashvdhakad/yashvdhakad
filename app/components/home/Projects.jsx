@@ -35,7 +35,7 @@ const Projects = () => {
         <h2 className="mr-4 text-8xl tracking-tighter  font-bold uppercase opacity-40 overflow-hidden">{heading}</h2>
       </Marquee>
       {/* divider */}
-      <div className="border border-white/10 shadow-sm"></div>
+      <div className="w-full h-[1px] bg-white/10"></div>
       {/* main content box */}
       {projectsArr.map((project) => {
         return (
