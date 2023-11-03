@@ -29,10 +29,10 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="w-full my-60 flex flex-col gap-6">
+    <section className="w-full my-60 flex flex-col gap-6">
       {/* section heading */}
       <Marquee speed={80} autoFill>
-        <h2 className="mr-4 text-slate-200/20  text-8xl tracking-tighter font-bold uppercase">
+        <h2 className="mr-4 text-slate-200/20  text-8xl tracking-tighter font-bold uppercase overflow-hidden">
           {heading}
         </h2>
       </Marquee>
