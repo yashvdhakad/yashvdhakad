@@ -15,8 +15,8 @@ const Projects = () => {
           tags: ["NextJs", "Supabase", "Vercel"],
         },
         {
-          title: "Duration",
-          tags: ["2 weeks"],
+          title: "Business Industry",
+          tags: ["E-commerce", "Jewellery"],
         },
       ],
       projectInfoObj: {
@@ -32,7 +32,9 @@ const Projects = () => {
     <section id="projects" className="w-full my-60 flex flex-col gap-6">
       {/* section heading */}
       <Marquee speed={80} autoFill>
-        <h2 className="mr-4 text-8xl tracking-tighter  font-bold uppercase opacity-40 overflow-hidden">{heading}</h2>
+        <h2 className="mr-4 text-slate-200/20  text-8xl tracking-tighter font-bold uppercase">
+          {heading}
+        </h2>
       </Marquee>
       {/* divider */}
       <div className="w-full h-[1px] bg-white/10"></div>

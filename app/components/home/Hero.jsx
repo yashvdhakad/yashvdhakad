@@ -35,7 +35,7 @@ const Hero = () => {
       {/* divider */}
       <div className="w-full h-[1px] bg-white/10"></div>
       <div className="w-full flex justify-center items-center gap-6">
-        <p className="opacity-60">Tech-Stack:</p>
+        <p className="text-sm opacity-60">Tech-Stack:</p>
         <div className="w-1/2 opacity-60">
           <LogoMarquee speed={80} size={44} />
         </div>

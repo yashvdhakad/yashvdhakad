@@ -4,5 +4,8 @@
 
 body {
   background: #020617;
-  color: #ffedd5;
+  color: #fed7aa;
+  background-size: 30px 30px;
+  background-image: radial-gradient(circle, #1e293b 1px, rgba(0, 0, 0, 0) 1px);
+  /* --------------------------------------------------- */
 }
