@@ -4,7 +4,7 @@ const Navbar = () => {
   const navArr = [
     { name: "/", url: "/" },
     { name: "Services", url: "/services" },
-    { name: "Projects", url: "#projects" },
+    { name: "Projects", url: "/projects" },
     { name: "Pricing", url: "/pricing" },
     { name: "Contact", url: "/contact" },
   ];
